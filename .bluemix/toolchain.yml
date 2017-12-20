@@ -24,7 +24,7 @@ toolchain:
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
-  name: 'microservices-toolchain-{{timestamp}}'
+  name: 'ioti-toolchain-{{timestamp}}'
 services:
   dashboard-build:
     service_id: pipeline
