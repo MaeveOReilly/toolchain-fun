@@ -1,41 +1,40 @@
 ---
 stages:
-- name: Build
-  inputs:
-  - url: https://git.ng.bluemix.net/maeve.oreilly/ioti-insurance-dashboard2.git
-    type: git
-    branch: master
-    dir_name: null
-  triggers:
-  - type: commit
-  jobs:
-  - name: Build
-    type: builder
-    artifact_dir: ''
-- name: Deploy
-  inputs:
-  - type: job
-    stage: Build
-    job: Build
-    dir_name: null
-  triggers:
-  - type: stage
-  jobs:
-  - name: Deploy to dev
-    type: deployer
-    deploy_permission: DEV_IN_SPACE
-    target:
-      region_id: ibm:yp:us-south
-      organization: maeve.oreilly@ie.ibm.com
-      space: dev
-      application: ioti-insurance-dashboard
-    script: "#!/bin/bash\nexport ENV=dev\n\nnpm install\nbower install\nnpm install\
-      \ -g bower\nnpm install -g brunch\n\ncp app/config-staging.js app/config-$ENV.js\n\
-      sed -i 's/[<]tenantid[>]/123456/g' app/config-$ENV.js\nsed -i 's/[<]backendHost[>]/iot4i-starter-backend/g'\
-      \ app/config-$ENV.js\n\nls app\ncat app/config-$ENV.js\nbrunch b\n\ncf push\
-      \ \"${CF_APP}\" "
-hooks:
-- enabled: true
-  label: null
-  ssl_enabled: false
-  url: https://devops-api.ng.bluemix.net/v1/messaging/webhook/publish
+  - name: Build Stage
+    inputs:
+      - type: git
+        branch: master
+        service:
+          service_id: github_integrated
+          parameters:
+            repo_name: iot4i-starter-app-backend
+            repo_url: https://github.com/ibm-watson-iot/ioti-insurance-dashboard
+            type: clone
+            has_issues: false
+    triggers:
+      - type: commit
+    jobs:
+      - name: Build
+        type: builder
+  - name: Deploy Stage
+    inputs:
+      - type: job
+        stage: Build Stage
+        job: Build
+    triggers:
+      - type: stage
+    jobs:
+      - name: Deploy to dev
+        type: deployer
+        script: |-
+          #!/bin/bash
+          #Remove the 'export' and 'sed' lines from the configuration of 
+          #the Deploy Stage when you have set APP_ENV in the manifest.yml and created a 
+          #corresponding config/config-$env.json file
+          cf push "${CF_APP}" --no-start
+          cf start "${CF_APP}"
+        target:
+          organization: ${CF_ORGANIZATION}
+          space: ${CF_SPACE}
+          url: ${CF_TARGET_URL}
+          application: ${CF_APP}
