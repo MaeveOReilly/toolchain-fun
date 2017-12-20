@@ -1,5 +1,5 @@
 ---
-template.name: "Set up customer starter applications for IoT for Insurance  on Cloud Foundry"
+template.name: "Set up starter applications for IoT for Insurance"
 template.description: "Fill me with words.\n\n"
 template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to a Git repo to trigger a new build and deployment."
 deploy.title: "Deployment stage"

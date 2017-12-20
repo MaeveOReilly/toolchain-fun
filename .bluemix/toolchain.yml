@@ -23,7 +23,7 @@ toolchain:
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
-  name: 'ioti-toolchain-{{timestamp}}'
+  name: 'ioti-{{timestamp}}'
 services:
   dashboard-build:
     service_id: pipeline
