@@ -40,7 +40,7 @@ services:
         env:
           SAUCE_LABS: test
           ORDER_API_REPO: dashboard-repo
-          CF_APP_NAME: '{{form.pipeline.parameters.orders-app-name}}'
+          CF_APP_NAME: '{{form.pipeline.parameters.dashboard-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -101,7 +101,7 @@ services:
         env:
           SAUCE_LABS: test
           CATALOG_API_REPO: backend-repo
-          CF_APP_NAME: '{{form.pipeline.parameters.catalog-app-name}}'
+          CF_APP_NAME: '{{form.pipeline.parameters.backend-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -133,8 +133,8 @@ form:
     parameters:
       staging-space: staging
       prod-space: prod
-      orders-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
-      catalog-app-name: '{{services.backend-repo.parameters.repo_name}}'
+      dashboard-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
+      backend-app-name: '{{services.backend-repo.parameters.repo_name}}'
       policy-holder-app-name: '{{services.policy-holder-repo.parameters.repo_name}}'
     schema:
       $ref: deploy.json

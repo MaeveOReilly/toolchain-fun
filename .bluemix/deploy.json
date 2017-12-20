@@ -38,7 +38,7 @@
             "description": "The bluemix space",
             "type": "string"
         },
-        "orders-app-name": {
+        "dashboard-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription1"
             },
@@ -46,7 +46,7 @@
             "pattern": "\\S",
             "maxLength": 63
         },
-        "catalog-app-name": {
+        "backend-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription2"
             },
@@ -54,7 +54,7 @@
             "pattern": "\\S",
             "maxLength": 63
         },
-        "ui-app-name": {
+        "policy-holder-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription3"
             },
@@ -70,9 +70,9 @@
         "prod-region",
         "prod-organization",
         "prod-space",
-        "orders-app-name",
-        "catalog-app-name",
-        "ui-app-name"
+        "dashboard-app-name",
+        "backend-app-name",
+        "policy-holder-app-name"
     ],
     "form": [
         {
@@ -85,7 +85,7 @@
             "title": {
                 "$ref": "#/messages/deploy.appName1"
             },
-            "key": "orders-app-name"
+            "key": "dashboard-app-name"
         },
         {
             "type": "text",
@@ -93,7 +93,7 @@
             "title": {
                 "$ref": "#/messages/deploy.appName2"
             },
-            "key": "catalog-app-name"
+            "key": "backend-app-name"
         },
         {
             "type": "text",
@@ -101,7 +101,7 @@
             "title": {
                 "$ref": "#/messages/deploy.appName3"
             },
-            "key": "ui-app-name"
+            "key": "policy-holder-app-name"
         },
         {
             "type": "table",
