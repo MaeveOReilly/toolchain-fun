@@ -2,12 +2,18 @@
 stages:
 - name: Build Stage
   inputs:
-  - url: https://git.ng.bluemix.net/maeve.oreilly/ioti-policy-holder-app2.git
-    type: git
+  - type: git
     branch: master
-    dir_name: null
+    service: {$POLICY_HOLDER_REPO} 
   triggers:
   - type: commit
+ properties:
+  - name: LOGICAL_APP_NAME
+    value: ${CF_APP_NAME}
+    type: text
+  - name: BUILD_PREFIX
+    value: master
+    type: text
   jobs:
   - name: Build
     type: builder
@@ -17,27 +23,27 @@ stages:
   - type: job
     stage: Build Stage
     job: Build
-    dir_name: null
   triggers:
   - type: stage
   properties:
   - name: tenant
     value: '123456'
     type: text
+  - name: CF_APP_NAME
+    value: undefined
+    type: text
+  - name: APP_URL
+    value: undefined
+    type: text
   jobs:
   - name: Deploy
     type: deployer
     deploy_permission: DEV_IN_SPACE
     target:
-      region_id: ibm:yp:us-south
-      organization: maeve.oreilly@ie.ibm.com
-      space: dev
-      application: Deliver Policy Holder App
+      region_id: ${STAGING_REGION_ID}
+      organization: ${STAGING_ORG_NAME}
+      space: ${STAGING_SPACE_NAME}
+      application: ${CF_APP_NAME}
     script: |
       #!/bin/bash
       cf push "${CF_APP}" 
-hooks:
-- enabled: true
-  label: null
-  ssl_enabled: false
-  url: https://devops-api.ng.bluemix.net/v1/messaging/webhook/publish
