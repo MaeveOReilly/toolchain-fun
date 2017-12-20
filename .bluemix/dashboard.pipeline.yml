@@ -1,0 +1,41 @@
+---
+stages:
+- name: Build
+  inputs:
+  - url: https://git.ng.bluemix.net/maeve.oreilly/ioti-insurance-dashboard2.git
+    type: git
+    branch: master
+    dir_name: null
+  triggers:
+  - type: commit
+  jobs:
+  - name: Build
+    type: builder
+    artifact_dir: ''
+- name: Deploy
+  inputs:
+  - type: job
+    stage: Build
+    job: Build
+    dir_name: null
+  triggers:
+  - type: stage
+  jobs:
+  - name: Deploy to dev
+    type: deployer
+    deploy_permission: DEV_IN_SPACE
+    target:
+      region_id: ibm:yp:us-south
+      organization: maeve.oreilly@ie.ibm.com
+      space: dev
+      application: ioti-insurance-dashboard
+    script: "#!/bin/bash\nexport ENV=dev\n\nnpm install\nbower install\nnpm install\
+      \ -g bower\nnpm install -g brunch\n\ncp app/config-staging.js app/config-$ENV.js\n\
+      sed -i 's/[<]tenantid[>]/123456/g' app/config-$ENV.js\nsed -i 's/[<]backendHost[>]/iot4i-starter-backend/g'\
+      \ app/config-$ENV.js\n\nls app\ncat app/config-$ENV.js\nbrunch b\n\ncf push\
+      \ \"${CF_APP}\" "
+hooks:
+- enabled: true
+  label: null
+  ssl_enabled: false
+  url: https://devops-api.ng.bluemix.net/v1/messaging/webhook/publish

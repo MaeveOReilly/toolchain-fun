@@ -17,9 +17,9 @@ template:
     - policy-holder-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/microservices-toolchain-hosted](https://github.com/open-toolchain/microservices-toolchain-hosted)
+      [https://github.com/MaeveOReilly/toolchain-fun](https://github.com/MaeveOReilly/toolchain-fun)
     git branch: >-
-      [master](https://github.com/open-toolchain/microservices-toolchain-hosted/tree/master)
+      [master](https://github.com/MaeveOReilly/toolchain-fun/tree/master)
 toolchain:
   template:
     getting_started:
@@ -117,15 +117,6 @@ services:
       type: clone
       has_issues: false
       enable_traceability: true
-  alerting:
-    service_id: pagerduty
-  dra:
-    service_id: draservicebroker
-    $ref: dra.yml
-  messaging:
-    service_id: slack
-  test:
-    service_id: saucelabs
   webide:
     service_id: orion
 form:
@@ -141,10 +132,10 @@ form:
   hostedgit:
     parameters:
       backend-repo_name: 'backend-{{toolchain.name}}'
-      backend-repo_url: 'https://github.com/open-toolchain/Microservices_CatalogAPI'
+      backend-repo_url: 'https://github.com/ibm-watson-iot/ioti-starter-app-backend'
       dashboard-repo_name: 'dashboard-{{toolchain.name}}'
-      dashboard-repo_url: 'https://github.com/open-toolchain/Microservices_OrdersAPI'
+      dashboard-repo_url: 'https://github.com/ibm-watson-iot/ioti-insurance-dashboard'
       policy-holder-repo_name: 'policy-holder-{{toolchain.name}}'
-      policy-holder-repo_url: 'https://github.com/open-toolchain/Microservices_UI'
+      policy-holder-repo_url: 'https://github.com/ibm-watson-iot/ioti-policy-holder-app'
     schema:
       $ref: repos.json
