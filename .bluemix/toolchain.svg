@@ -1,513 +1,814 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="120 536.2 692.7 438.6" style="enable-background:new 120 536.2 692.7 438.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#FFFFFF;stroke:#5AAAFA;stroke-miterlimit:10;}
-	.st2{fill:#231F20;}
-	.st3{fill:#FCC215;}
-	.st4{fill:#FFFFFF;}
-	.st5{fill:#EEC02B;}
-	.st6{fill:#1CB3A0;}
-	.st7{fill:#975AD1;}
-	.st8{fill:#FC42A0;}
-	.st9{fill:none;stroke:#5AAAFA;stroke-width:2;stroke-miterlimit:10;}
-	.st10{fill:#5AAAFA;}
-	.st11{fill:#FD783D;}
-	.st12{fill:#FDA578;}
-	.st13{fill:#4AD5C3;}
-	.st14{fill:#5DA51C;}
-	.st15{fill:#FC5255;}
-	.st16{fill:#E12826;}
-	.st17{fill:#E8A723;}
-	.st18{fill:#3EB890;}
-	.st19{fill:#E01765;}
-	.st20{fill:#472A49;}
-	.st21{fill:#CC2027;}
-	.st22{fill:#70CADB;}
-	.st23{fill:#1A937D;}
-	.st24{fill:#65863A;}
-	.st25{fill:#1F293A;}
-	.st26{fill:#4CB748;}
-	.st27{fill:#2E3737;}
-	.st28{fill:#586565;}
-	.st29{fill:#FCE77F;}
-	.st30{fill:#FCD432;}
-	.st31{fill:#030506;}
-	.st32{fill:#3D4747;}
-	.st33{fill:#64BC46;}
-	.st34{font-family:'Arial'; font-weight: bold}
-	.st35{font-size:12px;}
-	.st36{fill:#3B4B54;}
-	.st37{fill:#0883A5;}
-	.st38{fill:#00AED1;}
-	.st39{fill:#027C68;}
-	.st40{fill:#00B199;}
-	.st41{fill:#243238;}
-	.st42{fill:url(#SVGID_1_);}
-	.st43{fill:url(#SVGID_2_);}
-	.st44{fill:#0064FF;}
-	.st45{fill:url(#SVGID_3_);}
-	.st46{fill:url(#SVGID_4_);}
-	.st47{fill:url(#SVGID_5_);}
-	.st48{fill:url(#SVGID_6_);}
-	.st49{fill:url(#SVGID_7_);}
-	.st50{fill:url(#SVGID_8_);}
-</style>
-<g>
-	<title>background</title>
-	<rect id="canvas_background" x="120" y="536.2" class="st0" width="582" height="402"/>
-</g>
-<title>Layer 1</title>
-<g id="svg_1">
-	<circle id="svg_2" class="st1" cx="272.5" cy="930.3" r="26.5"/>
-	<path id="XMLID_17_" class="st2" d="M282,945.3h-19.2c-2.8,0-5-2.3-5-5v-19.6c0-2.8,2.3-5,5-5H282c2.8,0,5,2.3,5,4.9v19.6
-		C287,943,284.8,945.3,282,945.3z"/>
-	<circle id="XMLID_16_" class="st3" cx="281.2" cy="923.8" r="2.8"/>
-	<circle id="XMLID_15_" class="st3" cx="277.2" cy="930.7" r="2.8"/>
-	<circle id="XMLID_14_" class="st3" cx="273.2" cy="937.5" r="2.8"/>
-	<path id="XMLID_13_" class="st4" d="M273.1,933.3h-0.4c-0.2,0-0.3-0.1-0.3-0.3v-4.9c0-0.2,0.1-0.3,0.3-0.3h0.4
-		c0.2,0,0.3,0.1,0.3,0.3v4.8C273.5,933.1,273.3,933.3,273.1,933.3z"/>
-	<path id="XMLID_3_" class="st4" d="M285.4,927.8L285.4,927.8c-0.3,0-0.5,0.2-0.5,0.5v3.1l-2.6-3.4l0,0l-0.1-0.1l0,0h-0.1H282l0,0
-		l0,0h-0.1l0,0c-0.2,0.1-0.3,0.2-0.4,0.4c0,0,0,0,0,0.1l0,0v4.4c0,0.3,0.2,0.5,0.5,0.5l0,0c0.3,0,0.5-0.2,0.5-0.5v-2.9l2.6,3.3
-		c0.1,0.1,0.1,0.1,0.2,0.2l0,0h0.1l0,0l0,0h0.1l0,0c0.2,0,0.4-0.3,0.4-0.5v-4.6C285.9,928,285.7,927.8,285.4,927.8L285.4,927.8z"/>
-	<path id="XMLID_9_" class="st4" d="M262.9,925.1c-2.2,0-4,1.9-4,4.3s1.8,4.3,4,4.3s3.9-2,3.9-4.3S265.1,925.1,262.9,925.1z
-		 M262.9,932.8c-1.8,0-3.2-1.5-3.2-3.4s1.4-3.5,3.2-3.5s3.2,1.5,3.2,3.5S264.6,932.8,262.9,932.8z"/>
-	<path id="XMLID_8_" class="st4" d="M271,929.5v-0.2c0-0.8-0.7-1.5-1.5-1.5h-0.1h-1.1l0,0c-0.3,0-0.5,0.2-0.5,0.5v4.4
-		c0,0.3,0.2,0.5,0.5,0.5l0,0c0.3,0,0.5-0.2,0.5-0.5v-1.3l1.2,1.6c0.2,0.2,0.5,0.3,0.7,0.1l0,0c0.2-0.2,0.3-0.5,0.1-0.7l-1-1.4
-		C270.5,930.8,271,930.3,271,929.5L271,929.5z M270.2,929.5c0,0.4-0.3,0.8-0.8,0.8h-0.6l0,0v-1.6h0.6
-		C269.8,928.5,270.2,929,270.2,929.5L270.2,929.5L270.2,929.5z"/>
-</g>
-<circle id="svg_3" class="st1" cx="164.8" cy="623.7" r="26.5"/>
-<circle id="svg_4" class="st1" cx="272.7" cy="623.9" r="26.5"/>
-<circle id="svg_5" class="st1" cx="273.1" cy="725" r="26.5"/>
-<circle id="svg_6" class="st1" cx="272.8" cy="826.5" r="26.5"/>
-<rect id="svg_7" x="121" y="537.2" class="st5" width="83.5" height="4.5"/>
-<rect id="svg_8" x="210.7" y="537.4" class="st6" width="118.3" height="3.9"/>
-<rect id="svg_9" x="336.4" y="536.9" class="st7" width="157.8" height="5.2"/>
-<rect id="svg_10" x="502" y="537.2" class="st8" width="74.9" height="4.5"/>
-<circle id="svg_11" class="st1" cx="360.1" cy="623.7" r="26.5"/>
-<line id="svg_12" class="st9" x1="164.8" y1="579.2" x2="251.5" y2="579.2"/>
-<g id="svg_13">
-	<g id="svg_14">
-		<polyline id="svg_15" class="st9" points="163.5,590 163.5,579.2 273.7,579.2 273.7,592.2 		"/>
-		<g id="svg_16">
-			<polygon id="svg_17" class="st10" points="169.7,588.6 163.5,597.2 157.1,588.6 			"/>
-		</g>
-	</g>
-</g>
-<line id="svg_18" class="st9" x1="272.7" y1="693.7" x2="272.7" y2="673.3"/>
-<g id="svg_19">
-	<g id="svg_20">
-		<line id="svg_21" class="st9" x1="316.6" y1="623.7" x2="306.2" y2="623.7"/>
-		<g id="svg_22">
-			<polygon id="svg_23" class="st10" points="315.1,618.7 323.8,623.7 315.1,628.7 			"/>
-		</g>
-	</g>
-</g>
-<line id="svg_24" class="st9" x1="409.2" y1="623.7" x2="391.7" y2="623.7"/>
-<g id="svg_105">
-	<circle id="svg_106" class="st1" cx="525.1" cy="725.3" r="26.5"/>
-</g>
-<g id="svg_107">
-	<g id="g3-2" transform="scale(1.7500001192092896) ">
-		<g id="svg_108">
-			<path id="svg_109" class="st11" d="M212.7,357.8c-0.7,3.2-3.5,5.5-6.9,5.5c-2.3,0-4.2-1-5.4-2.7l3.7-3.7l0.4,0.4l-0.4-0.4l0,0
-				l0.6,0.6l0.9-3l-3,0.9l0.6,0.6l-0.9,1l-2.6,2.6c-0.4-0.8-0.7-1.7-0.8-2.7l-1.1-1.5c-0.1,0.3-0.1,0.6-0.1,1c0,4.5,3.7,8.2,8.2,8.2
-				c3.6,0,6.7-2.4,7.8-5.5L212.7,357.8L212.7,357.8z"/>
-			<polyline id="svg_110" class="st12" points="199.7,359.6 203.2,356.1 202.6,355.5 205.6,354.6 200.5,359.7 			"/>
-		</g>
-		<g id="svg_111">
-			<path id="svg_112" class="st12" d="M205.9,364.5c3.6,0,6.7-2.4,7.8-5.5l-0.5-0.7c-0.9,3.2-3.8,5.6-7.3,5.6
-				c-4.2,0-7.6-3.4-7.6-7.6c0-0.1,0-0.2,0-0.3l-0.5-0.7c-0.1,0.3-0.1,0.6-0.1,1C197.7,360.9,201.3,364.5,205.9,364.5z"/>
-			<line id="svg_113" class="st0" x1="199.7" y1="359.6" x2="200.4" y2="359.9"/>
-		</g>
-	</g>
-	<g id="g3-2_1_" transform="scale(1.7500001192092896) ">
-		<g id="svg_114">
-			<path id="svg_115" class="st6" d="M199.1,355.2c0.7-3.2,3.5-5.5,6.9-5.5c2.3,0,4.2,1,5.4,2.7l-3.7,3.7l-0.4-0.4l0.4,0.4l0,0
-				l-0.6-0.6l-0.9,3l3-0.9l-0.6-0.6l0.9-1l2.6-2.6c0.4,0.8,0.7,1.7,0.8,2.7l1.1,1.5c0.1-0.3,0.1-0.6,0.1-1c0-4.5-3.7-8.2-8.2-8.2
-				c-3.6,0-6.7,2.4-7.8,5.5L199.1,355.2L199.1,355.2z"/>
-			<polyline id="svg_116" class="st13" points="211.4,352.3 207.7,356 207.1,355.4 206.3,358.4 211.4,353.3 			"/>
-		</g>
-		<g id="svg_117">
-			<path id="svg_118" class="st13" d="M206,348.4c-3.6,0-6.7,2.4-7.8,5.5l0.5,0.7c0.9-3.2,3.8-5.6,7.3-5.6c4.2,0,7.6,3.4,7.6,7.6
-				c0,0.1,0,0.2,0,0.3l0.5,0.7c0.1-0.3,0.1-0.6,0.1-1C214.2,352.1,210.5,348.4,206,348.4L206,348.4z"/>
-			<line id="svg_119" class="st0" x1="212.2" y1="353.3" x2="211.5" y2="353"/>
-		</g>
-	</g>
-</g>
-<rect id="svg_120" x="662.6" y="537.2" class="st14" width="71.2" height="4.5"/>
-<rect id="svg_121" x="740.4" y="537.2" class="st15" width="72.3" height="4.5"/>
-<g id="svg_137">
-	<circle id="svg_138" class="st1" cx="444.7" cy="623.7" r="26.5"/>
-	<g id="svg_139">
-		<path id="svg_140" class="st16" d="M445,609.3c-8.1,0-14.7,6.6-14.7,14.7c0,5.1,2.7,9.9,7,12.6l4.4-8.3h-7.8
-			c-0.5-1.4-0.8-2.8-0.8-4.3c0-6.6,5.4-11.9,11.9-11.9c0.6,0,1.1,0,1.7,0.1l-1.3,1.3c-0.1,0-0.2,0-0.4,0c-5.8,0-10.4,4.7-10.4,10.4
-			c0,1,0.1,1.9,0.4,2.8h9.1l-3.8,7.2l9.2-9.3h-12.6l14.1-14C449.1,609.7,447.1,609.3,445,609.3"/>
-		<path id="svg_141" class="st16" d="M452.6,611.4l-4.4,8.3h7.8c2.4,6.1-0.7,13-6.8,15.4c-1.4,0.5-2.8,0.8-4.3,0.8
-			c-0.6,0-1.2,0-1.7-0.1l1.3-1.3c0.1,0,0.3,0,0.4,0c5.8,0,10.4-4.7,10.4-10.4c0,0,0-1.5-0.4-2.8h-9.1l3.8-7.2l-9.4,9.3h12.6
-			l-14,14.1c7.4,3.4,16.1,0.1,19.5-7.3C461.4,623.3,459,615.3,452.6,611.4L452.6,611.4z"/>
-	</g>
-</g>
-<g id="svg_142">
-	<ellipse id="svg_143" class="st1" cx="778.9" cy="623.7" rx="27.1" ry="26.5"/>
-	<g id="XMLID_4_">
-		<g id="XMLID_6_">
-			<path id="XMLID_21_" class="st17" d="M782.9,612.4c-0.4-1.2-1.6-1.8-2.9-1.4c-1.3,0.4-1.8,1.6-1.4,2.8l5.9,17.7
-				c0.4,1.1,1.6,1.7,2.8,1.4s1.9-1.6,1.5-2.8C788.7,630.1,782.9,612.4,782.9,612.4z"/>
-			<path id="XMLID_20_" class="st18" d="M773.7,615.3c-0.4-1.2-1.6-1.8-2.9-1.4c-1.2,0.4-1.8,1.6-1.4,2.8l5.9,17.7
-				c0.4,1.1,1.6,1.7,2.8,1.4c1.2-0.3,1.9-1.6,1.5-2.8L773.7,615.3z"/>
-			<path id="XMLID_19_" class="st19" d="M790.2,627.1c1.2-0.4,1.8-1.6,1.4-2.8c-0.4-1.2-1.6-1.8-2.9-1.4l-18.1,5.8
-				c-1.1,0.4-1.7,1.6-1.4,2.7c0.3,1.2,1.6,1.9,2.9,1.5C772.1,632.8,790.2,627.1,790.2,627.1z"/>
-			<path id="XMLID_18_" class="st20" d="M774.5,632.1c1.2-0.4,2.8-0.8,4.3-1.4c-0.4-1.2-0.8-2.7-1.4-4.2l-4.3,1.4L774.5,632.1z"/>
-			<path id="XMLID_12_" class="st21" d="M783.6,629.2c1.6-0.5,3.2-1,4.3-1.4c-0.4-1.2-0.8-2.7-1.4-4.2l-4.3,1.4L783.6,629.2z"/>
-			<path id="XMLID_11_" class="st22" d="M787.3,618.1c1.2-0.4,1.8-1.6,1.4-2.8c-0.4-1.2-1.6-1.8-2.9-1.4l-18.1,5.7
-				c-1.1,0.4-1.7,1.6-1.4,2.7c0.3,1.2,1.6,1.9,2.9,1.5C769.2,623.9,787.3,618.1,787.3,618.1z"/>
-			<path id="XMLID_10_" class="st23" d="M771.5,623.1c1.2-0.4,2.8-0.8,4.3-1.4c-0.5-1.6-1-3.1-1.4-4.2l-4.3,1.4L771.5,623.1z"/>
-			<path id="XMLID_7_" class="st24" d="M780.6,620.2c1.6-0.5,3.2-1,4.3-1.4c-0.5-1.6-1-3.1-1.4-4.2l-4.3,1.4L780.6,620.2z"/>
-		</g>
-	</g>
-</g>
-<circle id="svg_144" class="st1" cx="360.1" cy="725.1" r="26.5"/>
-<g id="svg_145">
-	<circle id="svg_146" class="st1" cx="444.8" cy="725.1" r="26.5"/>
-</g>
-<circle id="svg_147" class="st1" cx="360.1" cy="826.5" r="26.5"/>
-<g id="svg_148">
-	<circle id="svg_149" class="st1" cx="444.8" cy="826.5" r="26.5"/>
-	<g id="svg_150">
-		<path id="svg_151" class="st16" d="M444.7,811.8c-8.1,0-14.7,6.6-14.7,14.7c0,5.1,2.7,9.9,7,12.6l4.4-8.3h-7.8
-			c-0.5-1.4-0.8-2.8-0.8-4.3c0-6.6,5.4-11.9,11.9-11.9c0.6,0,1.1,0,1.7,0.1l-1.3,1.3c-0.1,0-0.2,0-0.4,0c-5.8,0-10.4,4.7-10.4,10.4
-			c0,1,0.1,1.9,0.4,2.8h9.1l-3.8,7.2l9.2-9.3h-12.6l14.1-14.1C448.9,812.2,446.8,811.8,444.7,811.8"/>
-		<path id="svg_152" class="st16" d="M452.4,814l-4.4,8.2h7.8c2.4,6.1-0.7,13-6.8,15.4c-1.4,0.5-2.8,0.8-4.3,0.8
-			c-0.6,0-1.2,0-1.7-0.1l1.3-1.3c0.1,0,0.3,0,0.4,0c5.8,0,10.4-4.7,10.4-10.4c0,0,0-1.5-0.4-2.8h-9.1l3.8-7.2l-9.4,9.3h12.6
-			l-14,14.1c7.4,3.4,16.1,0.1,19.5-7.3C461.2,825.8,458.8,817.8,452.4,814L452.4,814z"/>
-	</g>
-</g>
-<line id="svg_171" class="st9" x1="272.7" y1="795.1" x2="272.7" y2="771.2"/>
-<line id="svg_182" class="st9" x1="272.6" y1="895.8" x2="272.6" y2="873.8"/>
-<path id="svg_192_2_" class="st9" d="M656.2,592.2"/>
-<polyline id="svg_192_1_" class="st9" points="694.1,590 694.1,579.2 656.2,579.2 "/>
-<g id="svg_193">
-	<polygon id="svg_194" class="st10" points="699.1,588.6 694.1,597.2 689.1,588.6 	"/>
-</g>
-<g id="svg_196">
-	<polyline id="svg_197" class="st9" points="778.4,590 778.4,579.2 358.5,579.2 358.5,592.2 	"/>
-	<g id="svg_198">
-		<polygon id="svg_199" class="st10" points="783.2,588.6 778.4,597.2 773.6,588.6 		"/>
-	</g>
-</g>
-<g id="svg_200">
-	<g id="svg_201">
-		<polyline id="svg_202" class="st9" points="527.4,689.5 527.4,625.8 480,625.8 		"/>
-		<g id="svg_203">
-			<polygon id="svg_204" class="st10" points="532.1,688.1 527.4,696.8 522.7,688.1 			"/>
-		</g>
-	</g>
-</g>
-<g id="svg_205">
-	<g id="svg_206">
-		<polyline id="svg_207" class="st9" points="528.4,783 528.4,825.8 481,825.8 		"/>
-		<g id="svg_208">
-			<polygon id="svg_209" class="st10" points="523.7,784.5 528.4,775.8 533.1,784.5 			"/>
-		</g>
-	</g>
-</g>
-<g id="svg_210">
-	<g id="svg_211">
-		<line id="svg_212" class="st9" x1="314.4" y1="725" x2="304.1" y2="725"/>
-		<g id="svg_213">
-			<polygon id="svg_214" class="st10" points="313,720 321.6,725 313,729.9 			"/>
-		</g>
-	</g>
-</g>
-<g id="svg_215">
-	<g id="svg_216">
-		<line id="svg_217" class="st9" x1="316.6" y1="826.8" x2="306.2" y2="826.8"/>
-		<g id="svg_218">
-			<polygon id="svg_219" class="st10" points="315.1,821.9 323.8,826.8 315.1,831.8 			"/>
-		</g>
-	</g>
-</g>
-<g id="svg_220">
-	<g id="g3-2_3_" transform="scale(1.7500001192092896) ">
-		<g id="svg_221">
-			<path id="svg_222" class="st11" d="M212.4,415.6c-0.7,3.2-3.5,5.5-6.9,5.5c-2.3,0-4.2-1-5.4-2.7l3.7-3.7l0.4,0.4l-0.4-0.4l0,0
-				l0.6,0.6l0.9-3l-3,0.9l0.6,0.6l-0.9,1l-2.6,2.6c-0.4-0.8-0.7-1.7-0.8-2.7l-1.1-1.5c-0.1,0.3-0.1,0.6-0.1,1c0,4.5,3.7,8.2,8.2,8.2
-				c3.6,0,6.7-2.4,7.8-5.5L212.4,415.6L212.4,415.6z"/>
-			<polyline id="svg_223" class="st12" points="199.3,417.4 202.9,413.9 202.3,413.3 205.2,412.4 200.1,417.5 			"/>
-		</g>
-		<g id="svg_224">
-			<path id="svg_225" class="st12" d="M205.5,422.4c3.6,0,6.7-2.4,7.8-5.5l-0.5-0.7c-0.9,3.2-3.8,5.6-7.3,5.6
-				c-4.2,0-7.6-3.4-7.6-7.6c0-0.1,0-0.2,0-0.3l-0.5-0.7c-0.1,0.3-0.1,0.6-0.1,1C197.3,418.7,201,422.4,205.5,422.4L205.5,422.4z"/>
-			<line id="svg_226" class="st0" x1="199.4" y1="417.4" x2="200" y2="417.7"/>
-		</g>
-	</g>
-	<g id="g3-2_2_" transform="scale(1.7500001192092896) ">
-		<g id="svg_227">
-			<path id="svg_228" class="st6" d="M198.8,413c0.7-3.2,3.5-5.5,6.9-5.5c2.3,0,4.2,1,5.4,2.7l-3.7,3.7l-0.4-0.4l0.4,0.4l0,0
-				l-0.6-0.6l-0.9,3l3-0.9l-0.6-0.6l0.9-1l2.6-2.6c0.4,0.8,0.7,1.7,0.8,2.7l1.1,1.5c0.1-0.3,0.1-0.6,0.1-1c0-4.5-3.7-8.2-8.2-8.2
-				c-3.6,0-6.7,2.4-7.8,5.5L198.8,413L198.8,413z"/>
-			<polyline id="svg_229" class="st13" points="211.1,410.1 207.4,413.8 206.8,413.2 205.9,416.2 211,411.1 			"/>
-		</g>
-		<g id="svg_230">
-			<path id="svg_231" class="st13" d="M205.7,406.2c-3.6,0-6.7,2.4-7.8,5.5l0.5,0.7c0.9-3.2,3.8-5.6,7.3-5.6c4.2,0,7.6,3.4,7.6,7.6
-				c0,0.1,0,0.2,0,0.3l0.5,0.7c0.1-0.3,0.1-0.6,0.1-1C213.9,409.9,210.2,406.2,205.7,406.2L205.7,406.2z"/>
-			<line id="svg_232" class="st0" x1="211.8" y1="411.1" x2="211.1" y2="410.8"/>
-		</g>
-	</g>
-</g>
-<g id="svg_233">
-	<g id="g3-2_5_" transform="scale(1.7500001192092896) ">
-		<g id="svg_234">
-			<path id="svg_235" class="st11" d="M212.7,473.5c-0.7,3.2-3.5,5.5-6.9,5.5c-2.3,0-4.2-1-5.4-2.7l3.7-3.7l0.4,0.4l-0.4-0.4l0,0
-				l0.6,0.6l0.9-3l-3,0.9l0.6,0.6l-0.9,1l-2.6,2.6c-0.4-0.8-0.7-1.7-0.8-2.7l-1.1-1.5c-0.1,0.3-0.1,0.6-0.1,1c0,4.5,3.7,8.2,8.2,8.2
-				c3.6,0,6.7-2.4,7.8-5.5L212.7,473.5L212.7,473.5z"/>
-			<polyline id="svg_236" class="st12" points="199.7,475.3 203.2,471.8 202.6,471.2 205.6,470.3 200.5,475.4 			"/>
-		</g>
-		<g id="svg_237">
-			<path id="svg_238" class="st12" d="M205.9,480.3c3.6,0,6.7-2.4,7.8-5.5l-0.5-0.7c-0.9,3.2-3.8,5.6-7.3,5.6
-				c-4.2,0-7.6-3.4-7.6-7.6c0-0.1,0-0.2,0-0.3l-0.5-0.7c-0.1,0.3-0.1,0.6-0.1,1C197.7,476.6,201.3,480.3,205.9,480.3z"/>
-			<line id="svg_239" class="st0" x1="199.7" y1="475.4" x2="200.4" y2="475.7"/>
-		</g>
-	</g>
-	<g id="g3-2_4_" transform="scale(1.7500001192092896) ">
-		<g id="svg_240">
-			<path id="svg_241" class="st6" d="M199.1,470.9c0.7-3.2,3.5-5.5,6.9-5.5c2.3,0,4.2,1,5.4,2.7l-3.7,3.7l-0.4-0.4l0.4,0.4l0,0
-				l-0.6-0.6l-0.9,3l3-0.9l-0.6-0.6l0.9-1l2.6-2.6c0.4,0.8,0.7,1.7,0.8,2.7l1.1,1.5c0.1-0.3,0.1-0.6,0.1-1c0-4.5-3.7-8.2-8.2-8.2
-				c-3.6,0-6.7,2.4-7.8,5.5L199.1,470.9L199.1,470.9z"/>
-			<polyline id="svg_242" class="st13" points="211.4,468 207.7,471.7 207.1,471.2 206.3,474.1 211.4,469 			"/>
-		</g>
-		<g id="svg_243">
-			<path id="svg_244" class="st13" d="M206,464.1c-3.6,0-6.7,2.4-7.8,5.5l0.5,0.7c0.9-3.2,3.8-5.6,7.3-5.6c4.2,0,7.6,3.4,7.6,7.6
-				c0,0.1,0,0.2,0,0.3l0.5,0.7c0.1-0.3,0.1-0.6,0.1-1C214.2,467.8,210.5,464.1,206,464.1L206,464.1z"/>
-			<line id="svg_245" class="st0" x1="212.2" y1="469.1" x2="211.5" y2="468.8"/>
-		</g>
-	</g>
-</g>
-<g id="svg_246">
-	<path id="svg_247" class="st16" d="M445.3,710.2c-8.1,0-14.7,6.6-14.7,14.7c0,5.1,2.7,9.9,7,12.6l4.4-8.3h-7.8
-		c-0.5-1.4-0.8-2.8-0.8-4.3c0-6.6,5.4-11.9,11.9-11.9c0.6,0,1.1,0,1.7,0.1l-1.3,1.3c-0.1,0-0.2,0-0.4,0c-5.8,0-10.4,4.7-10.4,10.4
-		c0,1,0.1,1.9,0.4,2.8h9.1l-3.8,7.2l9.2-9.3h-12.6l14.1-14.1C449.5,710.7,447.4,710.2,445.3,710.2"/>
-	<path id="svg_248" class="st16" d="M453,712.4l-4.4,8.3h7.8c2.4,6.1-0.7,13-6.8,15.4c-1.4,0.5-2.8,0.8-4.3,0.8
-		c-0.6,0-1.2,0-1.7-0.1l1.3-1.3c0.1,0,0.3,0,0.4,0c5.8,0,10.4-4.7,10.4-10.4c0,0,0-1.5-0.4-2.8h-9.1l3.8-7.2l-9.4,9.3h12.6l-14,14.1
-		c7.4,3.4,16.1,0.1,19.5-7.3C461.8,724.3,459.3,716.3,453,712.4L453,712.4z"/>
-</g>
-<g id="svg_279">
-	<circle id="svg_280" class="st1" cx="694.1" cy="623.7" r="26.5"/>
-	<g id="svg_281">
-		<rect id="XMLID_1_" x="680.6" y="611" class="st25" width="25" height="25"/>
-		<path id="XMLID_5_" class="st26" d="M702,614v4h-0.8h-2h-2c-1.7,0-3.1,1.4-3.1,3.2v4.8c0,1.7,1.4,3.2,3.1,3.2h4
-			c1.7,0,3.2-1.4,3.2-3.2v-1.5v-3.4V614H702z M702,621.1v1.6v3.1c0,0.4-0.4,0.8-0.8,0.8h-4c-0.4,0-0.8-0.4-0.8-0.8V621
-			c0-0.4,0.4-0.8,0.8-0.8h2h2h0.8V621.1L702,621.1z"/>
-		<path id="XMLID_2_" class="st26" d="M684.3,633.1v-4h0.8h2h2c1.7,0,3.2-1.4,3.2-3.2v-4.8c0-1.7-1.4-3.2-3.2-3.2h-4
-			c-1.7,0-3.2,1.4-3.2,3.2v1.5v3.4v7.1H684.3L684.3,633.1z M684.3,626v-1.7v-3.1c0-0.4,0.4-0.8,0.8-0.8h4c0.4,0,0.8,0.4,0.8,0.8v4.8
-			c0,0.4-0.4,0.8-0.8,0.8h-2h-2h-0.8C684.3,626.8,684.3,626,684.3,626z"/>
-	</g>
-</g>
-<line id="svg_298" class="st9" x1="410.5" y1="725.8" x2="393" y2="725.8"/>
-<line id="svg_299" class="st9" x1="410.5" y1="827.5" x2="393" y2="827.5"/>
-<rect id="svg_318" x="584.5" y="537.2" class="st15" width="69" height="4.5"/>
-<circle id="svg_326" class="st1" cx="606.1" cy="623.7" r="26.5"/>
-<path id="svg_342" class="st27" d="M609.4,633.2l-6.6,0.4c-0.6,0-1.1-0.4-1.2-1l0,0c0-0.6,0.4-1.1,1-1.2l6.6-0.4
-	c0.6,0,1.1,0.4,1.2,1l0,0C610.5,632.7,610,633.2,609.4,633.2z"/>
-<path id="svg_343" class="st27" d="M609.4,636.4l-6.6,0.4c-0.6,0-1.1-0.4-1.2-1l0,0c0-0.6,0.4-1.1,1-1.2l6.6-0.4
-	c0.6,0,1.1,0.4,1.2,1l0,0C610.5,635.9,610,636.4,609.4,636.4z"/>
-<g id="svg_344">
-	<path id="svg_345" class="st28" d="M602.6,638L602.6,638c0.1,1.9,1.6,3.3,3.4,3.3c1.9,0,3.5-1.7,3.5-3.7c0,0,0,0,0-0.1
-		C609.5,637.5,602.6,638,602.6,638z"/>
-</g>
-<g id="svg_346">
-	<path id="svg_347" class="st29" d="M616.5,615.8c0-5.7-4.7-10.4-10.4-10.4s-10.4,4.7-10.4,10.4c0,2.7,1,5.1,2.6,6.9
-		c1.6,2.1,2.4,2.7,2.4,6.2v0.2c0,0.5,0.4,0.9,0.9,0.9h8.9c0.5,0,0.9-0.4,0.9-0.9v-0.2c0-3.6,0.9-4.1,2.7-6.5l0,0
-		C615.6,620.5,616.5,618.3,616.5,615.8z"/>
-	<path id="svg_348" class="st29" d="M614.1,622.4l0.1-0.2C614.2,622.3,614.2,622.4,614.1,622.4L614.1,622.4z"/>
-</g>
-<path id="svg_349" class="st30" d="M616.5,615.8c0-5.7-4.7-10.4-10.4-10.4V630h4.5c0.5,0,0.9-0.4,0.9-0.9v-0.2
-	c0-3.6,0.9-4.1,2.7-6.5l0,0C615.6,620.5,616.5,618.3,616.5,615.8z"/>
-<path id="svg_350" class="st31" d="M610.4,635.5v-0.4c0-0.5-0.5-0.9-1-0.8l-3.4,0.2v2.2l3.6-0.2C610.1,636.4,610.5,636,610.4,635.5z
-	"/>
-<path id="svg_351" class="st31" d="M610.4,632.3V632c0-0.5-0.5-0.9-1-0.8l-3.4,0.2v2.1l3.6-0.2C610.1,633.2,610.5,632.8,610.4,632.3
-	z"/>
-<path id="svg_352" class="st32" d="M609.6,637.5l-3.5,0.2v3.5C608,641.3,609.6,639.5,609.6,637.5L609.6,637.5z"/>
-<circle id="svg_353" class="st7" cx="606" cy="615.9" r="6.5"/>
-<path id="svg_354" class="st8" d="M606,609.4v13c3.6,0,6.5-2.9,6.5-6.5C612.5,612.4,609.6,609.4,606,609.4z"/>
-<path id="svg_355" class="st33" d="M611,620.1c1.3-1.5,1.7-3.5,1.4-5.3l-6.4,1.1l-4.2,4.9C604.6,623.2,608.7,622.8,611,620.1z"/>
-<g id="svg_356">
-	<g id="svg_357">
-		<polyline id="svg_358" class="st9" points="606.5,692 606.5,825.8 516.7,825.8 		"/>
-		<g id="svg_359">
-			<polygon id="svg_360" class="st10" points="601.5,693.5 606.5,684.8 611.5,693.5 			"/>
-		</g>
-	</g>
-</g>
-<line id="svg_361" class="st9" x1="561.6" y1="725" x2="604.5" y2="725"/>
-<g id="svg_363">
-	<polyline id="svg_364" class="st9" points="605.8,590 605.8,579.2 260.1,579.2 	"/>
-	<g id="svg_365">
-		<polygon id="svg_366" class="st10" points="610.8,588.6 605.8,597.2 600.9,588.6 		"/>
-	</g>
-</g>
-<line id="svg_367" class="st0" x1="262.9" y1="910.5" x2="262.9" y2="911"/>
-<text id="headerSVG.think" transform="matrix(1 0 0 1 120.35 555.2999)" class="st34 st35">THINK</text>
-<text id="headerSVG.code" transform="matrix(1 0 0 1 209.35 555.2999)" class="st34 st35">CODE</text>
-<text id="headerSVG.deliver" transform="matrix(1 0 0 1 335.35 555.2999)" class="st34 st35">DELIVER</text>
-<text id="headerSVG.run" transform="matrix(1 0 0 1 501.35 555.2999)" class="st34 st35">RUN</text>
-<text id="headerSVG.learn" transform="matrix(1 0 0 1 584.35 555.2999)" class="st34 st35">LEARN</text>
-<text id="headerSVG.manage" transform="matrix(1 0 0 1 662.35 555.2999)" class="st34 st35">MANAGE</text>
-<text id="headerSVG.culture" transform="matrix(1 0 0 1 739.35 555.2999)" class="st34 st35">CULTURE</text>
-<text id="headerSVG.issueTracker" transform="matrix(1 0 0 1 122.35 666.2999)" class="st34 st35">ISSUE TRACKER</text>
-<text id="headerSVG.repository1" transform="matrix(1 0 0 1 240.35 666.2999)" class="st34 st35">REPOSITORY</text>
-<text id="headerSVG.pipeline1" transform="matrix(1 0 0 1 336.35 666.2999)" class="st34 st35">PIPELINE</text>
-<text id="headerSVG.pipeline2" transform="matrix(1 0 0 1 336.35 766.3)" class="st34 st35">PIPELINE</text>
-<text id="headerSVG.pipeline3" transform="matrix(1 0 0 1 337.35 868.3)" class="st34 st35">PIPELINE</text>
-<text id="headerSVG.ibmCloud" transform="matrix(1 0 0 1 502.35 766.3)" class="st34 st35">IBM Cloud</text>
-<text id="headerSVG.repository2" transform="matrix(1 0 0 1 240.35 766.3)" class="st34 st35">REPOSITORY</text>
-<text id="headerSVG.repository3" transform="matrix(1 0 0 1 240.35 868.3)" class="st34 st35">REPOSITORY</text>
-<text id="headerSVG.webIde" transform="matrix(1 0 0 1 248.35 970.3)" class="st34 st35">WEB IDE</text>
-<text id="headerSVG.slack" transform="matrix(1.0228 0 0 1 760.9434 665.3004)" class="st34 st35">SLACK</text>
-<text id="headerSVG.pagerDuty" transform="matrix(1.0228 0 0 1 662.5674 665.3004)" class="st34 st35">PAGER DUTY</text>
-<text id="headerSVG.devops" transform="matrix(1 0 0 1 584.35 666.2999)" class="st34 st35">DEVOPS</text>
-<text id="headerSVG.insights" transform="matrix(1 0 0 1 581.35 678.2999)" class="st34 st35">INSIGHTS</text>
-<g>
-	<path class="st0" d="M157.5,624.9c-6-7.3,1.1-17,2.3-17"/>
-	<path class="st36" d="M157.7,625.1c-0.1,0-0.3,0-0.4-0.1c-0.1,0-0.3,0-0.6-0.1c-4.1-0.6-6.4-3-7.5-4.8c-1.5,7.9,3.1,13.5,5.2,15.1
-		c2.3,0,5.9-0.9,8.5-4.8C161.5,630,158.6,628.6,157.7,625.1z"/>
-	<path class="st37" d="M163,630.4c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.1-0.2,0.3-0.3,0.4c-2.5,3.2-5.8,4-7.9,4.1
-		c6.1,5.3,13.2,4.1,15.7,3.1c1.1-2,2.2-5.6,0.1-9.8C169.1,629.6,166.4,631.5,163,630.4z"/>
-	<path class="st38" d="M170.3,628.5c0.1,0.1,0.1,0.2,0.1,0.4c0.1,0.1,0.1,0.3,0.2,0.5c1.5,3.8,0.6,7-0.4,8.9
-		c7.6-2.7,10.1-9.4,10.5-12.1c-1.2-2-3.7-4.7-8.4-5C172.6,622.8,172.9,626.1,170.3,628.5z"/>
-	<path class="st39" d="M172.3,621.3c0.1,0,0.3,0,0.4,0.1c0.1,0,0.3,0,0.6,0.1c4.1,0.6,6.4,3,7.5,4.8c1.5-7.9-3.1-13.5-5.2-15.1
-		c-2.3,0-5.9,0.9-8.5,4.8C168.5,616.4,171.4,617.8,172.3,621.3z"/>
-	<path class="st40" d="M167,616c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.3-0.4c2.5-3.2,5.8-4,7.9-4.1c-6.1-5.3-13.2-4.1-15.7-3.1
-		c-1.1,2-2.2,5.6-0.1,9.8C160.9,616.8,163.6,614.9,167,616z"/>
-	<path class="st41" d="M159.7,617.9c-0.1-0.1-0.1-0.2-0.1-0.4c-0.1-0.1-0.1-0.3-0.2-0.5c-1.5-3.8-0.6-7,0.4-8.9
-		c-7.6,2.6-10.1,9.4-10.5,12c1.2,2,3.7,4.7,8.4,5C157.4,623.6,157.1,620.3,159.7,617.9z"/>
-</g>
-<g>
-	<path class="st0" d="M265.5,625.9c-6-7.3,1.1-17,2.3-17"/>
-	<path class="st36" d="M265.7,626.1c-0.1,0-0.3,0-0.4-0.1c-0.1,0-0.3,0-0.6-0.1c-4.1-0.6-6.4-3-7.5-4.8c-1.5,7.9,3.1,13.5,5.2,15.1
-		c2.3,0,5.9-0.9,8.5-4.8C269.5,631,266.6,629.6,265.7,626.1z"/>
-	<path class="st37" d="M271,631.4c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.1-0.2,0.3-0.3,0.4c-2.5,3.2-5.8,4-7.9,4.1
-		c6.1,5.3,13.2,4.1,15.7,3.1c1.1-2,2.2-5.6,0.1-9.8C277.1,630.6,274.4,632.5,271,631.4z"/>
-	<path class="st38" d="M278.3,629.5c0.1,0.1,0.1,0.2,0.1,0.4c0.1,0.1,0.1,0.3,0.2,0.5c1.5,3.8,0.6,7-0.4,8.9
-		c7.6-2.7,10.1-9.4,10.5-12.1c-1.2-2-3.7-4.7-8.4-5C280.6,623.8,280.9,627.1,278.3,629.5z"/>
-	<path class="st39" d="M280.3,622.3c0.1,0,0.3,0,0.4,0.1c0.1,0,0.3,0,0.6,0.1c4.1,0.6,6.4,3,7.5,4.8c1.5-7.9-3.1-13.5-5.2-15.1
-		c-2.3,0-5.9,0.9-8.5,4.8C276.5,617.4,279.4,618.8,280.3,622.3z"/>
-	<path class="st40" d="M275,617c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.3-0.4c2.5-3.2,5.8-4,7.9-4.1c-6.1-5.3-13.2-4.1-15.7-3.1
-		c-1.1,2-2.2,5.6-0.1,9.8C268.9,617.8,271.6,615.9,275,617z"/>
-	<path class="st41" d="M267.7,618.9c-0.1-0.1-0.1-0.2-0.1-0.4c-0.1-0.1-0.1-0.3-0.2-0.5c-1.5-3.8-0.6-7,0.4-8.9
-		c-7.6,2.6-10.1,9.4-10.5,12c1.2,2,3.7,4.7,8.4,5C265.4,624.6,265.1,621.3,267.7,618.9z"/>
-</g>
-<g>
-	<path class="st0" d="M265.5,726.9c-6-7.3,1.1-17,2.3-17"/>
-	<path class="st36" d="M265.7,727.1c-0.1,0-0.3,0-0.4-0.1c-0.1,0-0.3,0-0.6-0.1c-4.1-0.6-6.4-3-7.5-4.8c-1.5,7.9,3.1,13.5,5.2,15.1
-		c2.3,0,5.9-0.9,8.5-4.8C269.5,732,266.6,730.6,265.7,727.1z"/>
-	<path class="st37" d="M271,732.4c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.1-0.2,0.3-0.3,0.4c-2.5,3.2-5.8,4-7.9,4.1
-		c6.1,5.3,13.2,4.1,15.7,3.1c1.1-2,2.2-5.6,0.1-9.8C277.1,731.6,274.4,733.5,271,732.4z"/>
-	<path class="st38" d="M278.3,730.5c0.1,0.1,0.1,0.2,0.1,0.4c0.1,0.1,0.1,0.3,0.2,0.5c1.5,3.8,0.6,7-0.4,8.9
-		c7.6-2.7,10.1-9.4,10.5-12.1c-1.2-2-3.7-4.7-8.4-5C280.6,724.8,280.9,728.1,278.3,730.5z"/>
-	<path class="st39" d="M280.3,723.3c0.1,0,0.3,0,0.4,0.1c0.1,0,0.3,0,0.6,0.1c4.1,0.6,6.4,3,7.5,4.8c1.5-7.9-3.1-13.5-5.2-15.1
-		c-2.3,0-5.9,0.9-8.5,4.8C276.5,718.4,279.4,719.8,280.3,723.3z"/>
-	<path class="st40" d="M275,718c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.3-0.4c2.5-3.2,5.8-4,7.9-4.1c-6.1-5.3-13.2-4.1-15.7-3.1
-		c-1.1,2-2.2,5.6-0.1,9.8C268.9,718.8,271.6,716.9,275,718z"/>
-	<path class="st41" d="M267.7,719.9c-0.1-0.1-0.1-0.2-0.1-0.4c-0.1-0.1-0.1-0.3-0.2-0.5c-1.5-3.8-0.6-7,0.4-8.9
-		c-7.6,2.6-10.1,9.4-10.5,12c1.2,2,3.7,4.7,8.4,5C265.4,725.6,265.1,722.3,267.7,719.9z"/>
-</g>
-<g>
-	<path class="st0" d="M265.5,827.9c-6-7.3,1.1-17,2.3-17"/>
-	<path class="st36" d="M265.7,828.1c-0.1,0-0.3,0-0.4-0.1c-0.1,0-0.3,0-0.6-0.1c-4.1-0.6-6.4-3-7.5-4.8c-1.5,7.9,3.1,13.5,5.2,15.1
-		c2.3,0,5.9-0.9,8.5-4.8C269.5,833,266.6,831.6,265.7,828.1z"/>
-	<path class="st37" d="M271,833.4c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.1-0.2,0.3-0.3,0.4c-2.5,3.2-5.8,4-7.9,4.1
-		c6.1,5.3,13.2,4.1,15.7,3.1c1.1-2,2.2-5.6,0.1-9.8C277.1,832.6,274.4,834.5,271,833.4z"/>
-	<path class="st38" d="M278.3,831.5c0.1,0.1,0.1,0.2,0.1,0.4c0.1,0.1,0.1,0.3,0.2,0.5c1.5,3.8,0.6,7-0.4,8.9
-		c7.6-2.7,10.1-9.4,10.5-12.1c-1.2-2-3.7-4.7-8.4-5C280.6,825.8,280.9,829.1,278.3,831.5z"/>
-	<path class="st39" d="M280.3,824.3c0.1,0,0.3,0,0.4,0.1c0.1,0,0.3,0,0.6,0.1c4.1,0.6,6.4,3,7.5,4.8c1.5-7.9-3.1-13.5-5.2-15.1
-		c-2.3,0-5.9,0.9-8.5,4.8C276.5,819.4,279.4,820.8,280.3,824.3z"/>
-	<path class="st40" d="M275,819c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.3-0.4c2.5-3.2,5.8-4,7.9-4.1c-6.1-5.3-13.2-4.1-15.7-3.1
-		c-1.1,2-2.2,5.6-0.1,9.8C268.9,819.8,271.6,817.9,275,819z"/>
-	<path class="st41" d="M267.7,820.9c-0.1-0.1-0.1-0.2-0.1-0.4c-0.1-0.1-0.1-0.3-0.2-0.5c-1.5-3.8-0.6-7,0.4-8.9
-		c-7.6,2.6-10.1,9.4-10.5,12c1.2,2,3.7,4.7,8.4,5C265.4,826.6,265.1,823.3,267.7,820.9z"/>
-</g>
-<g>
-	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="517.5652" y1="737.8737" x2="522.308" y2="729.2198" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0.11" style="stop-color:#0064FF"/>
-		<stop  offset="0.15" style="stop-color:#0E7FF7"/>
-		<stop  offset="0.24" style="stop-color:#26ADEA"/>
-		<stop  offset="0.31" style="stop-color:#38D1DF"/>
-		<stop  offset="0.39" style="stop-color:#45EAD8"/>
-		<stop  offset="0.45" style="stop-color:#4DFAD4"/>
-		<stop  offset="0.51" style="stop-color:#50FFD2"/>
-		<stop  offset="1" style="stop-color:#50FFD2;stop-opacity:0"/>
-	</linearGradient>
-	<path class="st42" d="M516.9,736.6L516.9,736.6c-0.1,0-0.2,0-0.3,0c-3.2,0-5.8-2.6-5.8-5.8s2.6-5.8,5.8-5.8c3.2,0,5.8,2.6,5.8,5.8
-		l0,0v0h1.2c0-3.8-3.1-7-6.9-7h0h-0.1l0,0c-0.4,0-0.9,0-1.3,0.1l0,0c-3.8,0.8-6.2,4.5-5.4,8.2c0.7,3.2,3.5,5.5,6.8,5.5h0.4
-		L516.9,736.6L516.9,736.6z"/>
-	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="543.3596" y1="734.9336" x2="532.6968" y2="725.8846" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0.19" style="stop-color:#0064FF"/>
-		<stop  offset="0.2" style="stop-color:#0267FE"/>
-		<stop  offset="0.3" style="stop-color:#2497EB"/>
-		<stop  offset="0.4" style="stop-color:#3CB9DD"/>
-		<stop  offset="0.47" style="stop-color:#4BCED5"/>
-		<stop  offset="0.52" style="stop-color:#50D6D2"/>
-		<stop  offset="1" style="stop-color:#50FFD2;stop-opacity:0"/>
-	</linearGradient>
-	<path class="st43" d="M535.1,721.6L535.1,721.6c-0.1,0-0.2,0-0.3,0c-0.6-0.1-1.1-0.2-1.7-0.2h-0.3c-3.1,0.1-5.9,1.9-7.1,4.7h1.3
-		c0.3-0.6,0.7-1,1.2-1.5c1.3-1.3,3.1-2,5-2c0.2,0,0.5,0,0.7,0h0h0.1l0,0c3.9,0.5,6.6,4,6.1,7.8c-0.4,3.5-3.5,6.2-7,6.2H533v1.2h0.1
-		c4.6,0,8.2-3.7,8.2-8.2C541.3,725.8,538.8,722.5,535.1,721.6L535.1,721.6z"/>
-	<rect x="516.9" y="736.6" class="st44" width="16.1" height="1.2"/>
-	
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="522.5811" y1="716.9232" x2="531.9998" y2="731.8347" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0" style="stop-color:#0064FF"/>
-		<stop  offset="3.000000e-02" style="stop-color:#0975FA"/>
-		<stop  offset="0.12" style="stop-color:#22A6EC"/>
-		<stop  offset="0.2" style="stop-color:#36CDE1"/>
-		<stop  offset="0.28" style="stop-color:#44E8D9"/>
-		<stop  offset="0.35" style="stop-color:#4DF9D4"/>
-		<stop  offset="0.4" style="stop-color:#50FFD2"/>
-		<stop  offset="0.71" style="stop-color:#50FFD2;stop-opacity:0"/>
-	</linearGradient>
-	<path class="st45" d="M525.5,717.5c5.3,0,9.5,4.2,9.5,9.5s-4.2,9.5-9.5,9.5c-5.3,0-9.5-4.2-9.5-9.5S520.3,717.5,525.5,717.5
-		 M525.5,716.2c-5.9,0-10.8,4.8-10.8,10.8s4.8,10.8,10.8,10.8c5.9,0,10.8-4.8,10.8-10.8C536.3,721,531.5,716.2,525.5,716.2
-		L525.5,716.2L525.5,716.2z"/>
-	
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="525.7343" y1="705.374" x2="510.3689" y2="731.4541" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0" style="stop-color:#50FFD2"/>
-		<stop  offset="1" style="stop-color:#0064FF"/>
-	</linearGradient>
-	<path class="st46" d="M510.7,718.5l2.9,1.7c0.3,0.2,0.6,0,0.8-0.2c0.2-0.3,0-0.6-0.2-0.8l0,0l-2.9-1.7c-0.3-0.2-0.6,0-0.8,0.2
-		C510.2,718,510.3,718.4,510.7,718.5L510.7,718.5z"/>
-	
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="527.4403" y1="706.3796" x2="512.0749" y2="732.4597" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0" style="stop-color:#50FFD2"/>
-		<stop  offset="1" style="stop-color:#0064FF"/>
-	</linearGradient>
-	<path class="st47" d="M518.2,715.1c0.2,0.3,0.6,0.4,0.8,0.2c0.3-0.2,0.4-0.6,0.2-0.8l0,0l-1.7-2.9c-0.2-0.3-0.6-0.4-0.8-0.2
-		c-0.3,0.2-0.4,0.6-0.2,0.8l0,0L518.2,715.1z"/>
-	
-		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="532.102" y1="709.1262" x2="516.7366" y2="735.2063" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0" style="stop-color:#50FFD2"/>
-		<stop  offset="1" style="stop-color:#0064FF"/>
-	</linearGradient>
-	<path class="st48" d="M525.4,713.5c0.3,0,0.6-0.3,0.6-0.6l0,0v-3.3c0-0.3-0.3-0.6-0.6-0.6c-0.3,0-0.6,0.3-0.6,0.6l0,0v3.3
-		C524.8,713.3,525.1,713.5,525.4,713.5L525.4,713.5z"/>
-	
-		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="538.5913" y1="712.9501" x2="523.226" y2="739.0302" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0" style="stop-color:#50FFD2"/>
-		<stop  offset="1" style="stop-color:#0064FF"/>
-	</linearGradient>
-	<path class="st49" d="M531.8,715.3c0.3,0.2,0.6,0,0.8-0.2l0,0l1.7-2.9c0.2-0.3,0-0.6-0.2-0.8c-0.3-0.2-0.6,0-0.8,0.2l-1.7,2.9
-		C531.4,714.7,531.5,715.1,531.8,715.3L531.8,715.3z"/>
-	
-		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="545.0603" y1="716.7609" x2="529.6949" y2="742.841" gradientTransform="matrix(1 0 0 1 -4.44 -1.69)">
-		<stop  offset="0" style="stop-color:#50FFD2"/>
-		<stop  offset="1" style="stop-color:#0064FF"/>
-	</linearGradient>
-	<path class="st50" d="M537,720.3c0.1,0,0.2,0,0.3-0.1l2.9-1.7c0.3-0.2,0.4-0.6,0.2-0.8c-0.2-0.3-0.6-0.4-0.8-0.2l-2.9,1.7
-		c-0.3,0.2-0.4,0.6-0.2,0.8C536.6,720.1,536.8,720.3,537,720.3L537,720.3z"/>
-</g>
-</svg>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-1c2c316b7a17f15536c6a26ed744654fc228a24658a7ae395cdcbf8329c8406b.css" integrity="sha256-HCwxa3oX8VU2xqJu10RlT8IookZYp645XNy/gynIQGs=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-8100b9bf1eb6ed8b38eaad2fe7ba51d1895aa0602aafe4a87068d444e07e8c5c.css" integrity="sha256-gQC5vx627Ys46q0v57pR0YlaoGAqr+SocGjUROB+jFw=" media="all" rel="stylesheet" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>simple-toolchain-hosted/toolchain.svg at master · open-toolchain/simple-toolchain-hosted</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars3.githubusercontent.com/u/18193181?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="open-toolchain/simple-toolchain-hosted" property="og:title" /><meta content="https://github.com/open-toolchain/simple-toolchain-hosted" property="og:url" /><meta content="Contribute to simple-toolchain-hosted development by creating an account on GitHub." property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjEzMjQyMzM3OmMxYjE0NzBmYWY5ZWJiMjIyNzhiZDQyMTIyZWYwNWQ0N2ZlOGExZTM4OGY2ZjgwYjY2MWZhYWU4MzNmZTRjMzE=--4fdfaa7c4ab1fa3bbcf9b80ca441564222796604">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="8D54:4A6B:4213D4:70B622:5A3A61E1" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="8D54:4A6B:4213D4:70B622:5A3A61E1" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="22389656" name="octolytics-actor-id" /><meta content="MaeveOReilly" name="octolytics-actor-login" /><meta content="8eb5bbe896a4dd48ba9cfc636f5b35b067add61d9efb91bb981a9c3162208ec5" name="octolytics-actor-hash" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="MaeveOReilly">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZjU4YWQ4NzQzNTMwNTA1YzZjMjdlYWFmN2JkZTY3YzUyOWQzYmQwMTFkYWYyYTk1MjBlZTIzMzU5NWE5MzlmMXx7InJlbW90ZV9hZGRyZXNzIjoiNzguMTkuMjA4LjIxMiIsInJlcXVlc3RfaWQiOiI4RDU0OjRBNkI6NDIxM0Q0OjcwQjYyMjo1QTNBNjFFMSIsInRpbWVzdGFtcCI6MTUxMzc3NTU4NiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
+
+  <meta name="html-safe-nonce" content="1517b3235fdb82742fde4475d255a30298097d8e">
+
+  <meta http-equiv="x-pjax-version" content="e6dbf537b2eb3990c0cae54500f32daf">
+  
+
+      <link href="https://github.com/open-toolchain/simple-toolchain-hosted/commits/master.atom" rel="alternate" title="Recent Commits to simple-toolchain-hosted:master" type="application/atom+xml">
+
+  <meta name="description" content="Contribute to simple-toolchain-hosted development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/open-toolchain/simple-toolchain-hosted git https://github.com/open-toolchain/simple-toolchain-hosted.git">
+
+  <meta content="18193181" name="octolytics-dimension-user_id" /><meta content="open-toolchain" name="octolytics-dimension-user_login" /><meta content="83571314" name="octolytics-dimension-repository_id" /><meta content="open-toolchain/simple-toolchain-hosted" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="83571314" name="octolytics-dimension-repository_network_root_id" /><meta content="open-toolchain/simple-toolchain-hosted" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
+
+
+    <link rel="canonical" href="https://github.com/open-toolchain/simple-toolchain-hosted/blob/master/.bluemix/toolchain.svg" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+      
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex px-3 flex-justify-between container-lg">
+    <div class="d-flex flex-justify-between">
+      <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/open-toolchain/simple-toolchain-hosted/search" class="js-site-search-form" data-scoped-search-url="/open-toolchain/simple-toolchain-hosted/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/open-toolchain/simple-toolchain-hosted/blob/master/.bluemix/toolchain.svg" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a href="/marketplace" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                    Marketplace
+</a>                </li>
+            <li>
+              <a href="/explore" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown js-menu-container">
+    <span class="d-inline-block  px-2">
+      
+
+    </span>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg aria-hidden="true" class="octicon octicon-plus float-left mr-1 mt-1" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="open-toolchain/simple-toolchain-hosted">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/open-toolchain/simple-toolchain-hosted/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </details>
+  </li>
+
+  <li class="dropdown js-menu-container">
+
+    <details class="dropdown-details details-reset js-dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@MaeveOReilly" class="avatar float-left mr-1" src="https://avatars3.githubusercontent.com/u/22389656?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">MaeveOReilly</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="/MaeveOReilly" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="/MaeveOReilly?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your Gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vO9TXtE/xQBX5XPl2RY/9u0YIs+/gkg1EPDiTumnnJbCiWZll+IW2TnHjyMFbo9ngODEzewHmrQd1bTq+ruTuA==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="T61FDMI72K0AQBfI7lUcQ9dKqeJqCRuc0IeV2mX2bCkxy3A3hOYLdG5i6w4yLazSurJP4DmMyR3dosN+dupjBw==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav ">
+    <div class="repohead-details-container clearfix container ">
+
+      <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bcJqHDJbr4+6EmCnGE2f6nis9aTFImLDh6Gap85uOUkTdshJ10iVwW5Z3p+bMf0ypUnX1SpAk/NXOxydA0XK/Q==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="83571314" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/open-toolchain/simple-toolchain-hosted/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Toggle repository notifications menu"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+          <a class="social-count js-social-count"
+            href="/open-toolchain/simple-toolchain-hosted/watchers"
+            aria-label="10 users are watching this repository">
+            10
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/open-toolchain/simple-toolchain-hosted/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="LoKlul5m8NYG72BcPZm6qq90UbljLkOHVWLy9+/SJon55J25RGMFt+tJrWNPBIrNQSYfqDYe1AmaoG/6Fzegcw==" /></div>
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar open-toolchain/simple-toolchain-hosted"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/open-toolchain/simple-toolchain-hosted/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/open-toolchain/simple-toolchain-hosted/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Mx3iYn4Z0eXoWPYfosAHezsonLF1ZF6JktFifQaeQCLJIjVoqHPbU9eAasdbydHAbs5zUGMfJ5O8BdjsxnI1/w==" /></div>
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star open-toolchain/simple-toolchain-hosted"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/open-toolchain/simple-toolchain-hosted/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <a href="#fork-destination-box" class="btn btn-sm btn-with-count"
+              title="Fork your own copy of open-toolchain/simple-toolchain-hosted to your account"
+              aria-label="Fork your own copy of open-toolchain/simple-toolchain-hosted to your account"
+              rel="facebox"
+              data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            Fork
+          </a>
+
+          <div id="fork-destination-box" style="display: none;">
+            <h2 class="facebox-header" data-facebox-id="facebox-header">Where should we fork this repository?</h2>
+            <include-fragment src=""
+                class="js-fork-select-fragment fork-select-fragment"
+                data-url="/open-toolchain/simple-toolchain-hosted/fork?fragment=1">
+              <img alt="Loading" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" />
+            </include-fragment>
+          </div>
+
+    <a href="/open-toolchain/simple-toolchain-hosted/network" class="social-count"
+       aria-label="13 users forked this repository">
+      13
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/open-toolchain" class="url fn" rel="author">open-toolchain</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/open-toolchain/simple-toolchain-hosted" data-pjax="#js-repo-pjax-container">simple-toolchain-hosted</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/open-toolchain/simple-toolchain-hosted" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /open-toolchain/simple-toolchain-hosted" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/open-toolchain/simple-toolchain-hosted/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /open-toolchain/simple-toolchain-hosted/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/open-toolchain/simple-toolchain-hosted/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /open-toolchain/simple-toolchain-hosted/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/open-toolchain/simple-toolchain-hosted/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /open-toolchain/simple-toolchain-hosted/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a href="/open-toolchain/simple-toolchain-hosted/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /open-toolchain/simple-toolchain-hosted/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a href="/open-toolchain/simple-toolchain-hosted/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /open-toolchain/simple-toolchain-hosted/pulse">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+  <a href="/open-toolchain/simple-toolchain-hosted/blob/8dc87d21af65c7b7f7fe2c3594bde47a576525f4/.bluemix/toolchain.svg" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:ee044bc9b32d734da0416c19ca1e8c68 -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/open-toolchain/simple-toolchain-hosted/blob/dedicated-cio/.bluemix/toolchain.svg"
+               data-name="dedicated-cio"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                dedicated-cio
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/open-toolchain/simple-toolchain-hosted/blob/dedicated-no-ghe/.bluemix/toolchain.svg"
+               data-name="dedicated-no-ghe"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                dedicated-no-ghe
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/open-toolchain/simple-toolchain-hosted/blob/dedicated-sncf/.bluemix/toolchain.svg"
+               data-name="dedicated-sncf"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                dedicated-sncf
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/open-toolchain/simple-toolchain-hosted/blob/dedicated/.bluemix/toolchain.svg"
+               data-name="dedicated"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                dedicated
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/open-toolchain/simple-toolchain-hosted/blob/master/.bluemix/toolchain.svg"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/open-toolchain/simple-toolchain-hosted/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+    </div>
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/open-toolchain/simple-toolchain-hosted"><span>simple-toolchain-hosted</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/open-toolchain/simple-toolchain-hosted/tree/master/.bluemix"><span>.bluemix</span></a></span><span class="separator">/</span><strong class="final-path">toolchain.svg</strong>
+    </div>
+  </div>
+
+
+  
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/open-toolchain/simple-toolchain-hosted/commit/c704c6b6344cc46aebd0c2b7657e93c7b7ea7f52" data-pjax>
+          c704c6b
+        </a>
+        <relative-time datetime="2017-11-09T01:15:07Z">Nov 9, 2017</relative-time>
+      </span>
+      <div>
+        <img alt="@jasmsing" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/15035130?s=40&amp;v=4" width="20" />
+        <a href="/jasmsing" class="user-mention" rel="contributor">jasmsing</a>
+          <a href="/open-toolchain/simple-toolchain-hosted/commit/c704c6b6344cc46aebd0c2b7657e93c7b7ea7f52" class="message" data-pjax="true" title="Update toolchain.svg">Update toolchain.svg</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+        <strong>2</strong>
+         contributors
+      </button>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="jasmsing" href="/open-toolchain/simple-toolchain-hosted/commits/master/.bluemix/toolchain.svg?author=jasmsing"><img alt="@jasmsing" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/15035130?s=40&amp;v=4" width="20" /> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="skaegi" href="/open-toolchain/simple-toolchain-hosted/commits/master/.bluemix/toolchain.svg?author=skaegi"><img alt="@skaegi" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/541119?s=40&amp;v=4" width="20" /> </a>
+
+
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@jasmsing" height="24" src="https://avatars3.githubusercontent.com/u/15035130?s=48&amp;v=4" width="24" />
+            <a href="/jasmsing">jasmsing</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@skaegi" height="24" src="https://avatars2.githubusercontent.com/u/541119?s=48&amp;v=4" width="24" />
+            <a href="/skaegi">skaegi</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+      <div class="BtnGroup">
+        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped tooltipped-n source "
+          href="/open-toolchain/simple-toolchain-hosted/blob/master/.bluemix/toolchain.svg?short_path=3472096" aria-label="Display the source blob">
+          <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+        </a>
+        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped-n rendered selected"
+          href="/open-toolchain/simple-toolchain-hosted/blob/master/.bluemix/toolchain.svg" aria-label="Display the rendered blob">
+          <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+        </a>
+      </div>
+
+    <div class="BtnGroup">
+      <a href="/open-toolchain/simple-toolchain-hosted/raw/master/.bluemix/toolchain.svg" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/open-toolchain/simple-toolchain-hosted/blame/master/.bluemix/toolchain.svg" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/open-toolchain/simple-toolchain-hosted/commits/master/.bluemix/toolchain.svg" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+    </div>
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/open-toolchain/simple-toolchain-hosted/edit/master/.bluemix/toolchain.svg" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="w5AKg6zd+pl3zFcfXnGPkqFW1H+s87rxpHy+m95tXU8V+6w7zpvaAsth4S9soxYuAy5JE7fD2xHIWAKuI0rfQQ==" /></div>
+          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/open-toolchain/simple-toolchain-hosted/delete/master/.bluemix/toolchain.svg" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kxFfzP/HVzUYxHuoy+rCcWcSW9tIqrvYRMVoiwZ8RgbN3ub3rKDmqn6Ml9P33ZS4nNQ26fGx4M0GoDXXfds5PA==" /></div>
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      260 lines (246 sloc)
+      <span class="file-info-divider"></span>
+    15.2 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-svg">
+      
+  <div class="render-wrapper">
+    <div class="render-container is-render-pending js-render-target "
+      data-identity="dd6436f8-adb1-4373-aa24-9a882059d50e"
+      data-host="https://render.githubusercontent.com"
+      data-type="svg">
+      <img alt="" class="octospinner" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" />
+      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/open-toolchain/simple-toolchain-hosted/blob/master/.bluemix/toolchain.svg">Reload?</a></div>
+      <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
+      <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
+      <iframe class="render-viewer" src="https://render.githubusercontent.com/view/svg?commit=8dc87d21af65c7b7f7fe2c3594bde47a576525f4&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6f70656e2d746f6f6c636861696e2f73696d706c652d746f6f6c636861696e2d686f737465642f386463383764323161663635633762376637666532633335393462646534376135373635323566342f2e626c75656d69782f746f6f6c636861696e2e737667&amp;nwo=open-toolchain%2Fsimple-toolchain-hosted&amp;path=.bluemix%2Ftoolchain.svg&amp;repository_id=83571314&amp;repository_type=Repository#dd6436f8-adb1-4373-aa24-9a882059d50e" sandbox="allow-scripts allow-same-origin allow-top-navigation">Viewer requires iframe.</iframe>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2017 <span title="0.25494s from unicorn-1909009544-xj6jn">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="footer-octicon" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-OQfZqtgSuMlBR8iBZctKlpPFfPmfDo4BBT/Hneep2RE=" src="https://assets-cdn.github.com/assets/frameworks-3907d9aad812b8c94147c88165cb4a9693c57cf99f0e8e01053fc79de7a9d911.js"></script>
+    
+    <script async="async" crossorigin="anonymous" integrity="sha256-wbENoh8ZMqQXP8+2BnbirTLlFfeud1Y922WPBM0mNo0=" src="https://assets-cdn.github.com/assets/github-c1b10da21f1932a4173fcfb60676e2ad32e515f7ae77563ddb658f04cd26368d.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
