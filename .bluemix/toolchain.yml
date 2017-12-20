@@ -9,12 +9,12 @@ template:
   header: '![](toolchain.svg?localize)'
   icon: icon.svg
   required:
-    - ui-build
-    - catalog-api-build
-    - orders-api-build
-    - catalog-api-repo
-    - orders-api-repo
-    - ui-repo
+    - policy-holder-build
+    - backend-build
+    - dashboard-build
+    - backend-repo
+    - dashboard-repo
+    - policy-holder-repo
   info:
     git url: >-
       [https://github.com/open-toolchain/microservices-toolchain-hosted](https://github.com/open-toolchain/microservices-toolchain-hosted)
@@ -26,20 +26,20 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
   name: 'microservices-toolchain-{{timestamp}}'
 services:
-  orders-api-build:
+  dashboard-build:
     service_id: pipeline
     parameters:
       services:
-        - orders-api-repo
+        - dashboard-repo
         - test
-      name: 'orders-api-{{toolchain.name}}'
+      name: 'dashboard-{{toolchain.name}}'
       configuration:
         content:
-          $ref: orders-api.pipeline.yml
+          $ref: dashboard.pipeline.yml
           $refType: text
         env:
           SAUCE_LABS: test
-          ORDER_API_REPO: orders-api-repo
+          ORDER_API_REPO: dashboard-repo
           CF_APP_NAME: '{{form.pipeline.parameters.orders-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
@@ -48,38 +48,38 @@ services:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-  catalog-api-repo:
+  backend-repo:
     service_id: hostedgit
     parameters:
-      repo_name: '{{form.hostedgit.parameters.catalog-api-repo_name}}'
-      repo_url: '{{form.hostedgit.parameters.catalog-api-repo_url}}'
+      repo_name: '{{form.hostedgit.parameters.backend-repo_name}}'
+      repo_url: '{{form.hostedgit.parameters.backend-repo_url}}'
       type: clone
       has_issues: false
       enable_traceability: true
-  ui-repo:
+  policy-holder-repo:
     service_id: hostedgit
     parameters:
-      repo_name: '{{form.hostedgit.parameters.ui-repo_name}}'
-      repo_url: '{{form.hostedgit.parameters.ui-repo_url}}'
+      repo_name: '{{form.hostedgit.parameters.policy-holder-repo_name}}'
+      repo_url: '{{form.hostedgit.parameters.policy-holder-repo_url}}'
       type: clone
       has_issues: true
       enable_traceability: true
-  ui-build:
+  policy-holder-build:
     service_id: pipeline
     parameters:
       services:
-        - ui-repo
+        - policy-holder-repo
         - test
-      name: 'ui-{{toolchain.name}}'
-      ui-pipeline: true
+      name: 'policy-holder-{{toolchain.name}}'
+      policy-holder-pipeline: true
       configuration:
         content:
-          $ref: ui.pipeline.yml
+          $ref: policy-holder.pipeline.yml
           $refType: text
         env:
           SAUCE_LABS: test
-          UI_REPO: ui-repo
-          CF_APP_NAME: '{{form.pipeline.parameters.ui-app-name}}'
+          UI_REPO: policy-holder-repo
+          CF_APP_NAME: '{{form.pipeline.parameters.policy-holder-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -87,20 +87,20 @@ services:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-  catalog-api-build:
+  backend-build:
     service_id: pipeline
     parameters:
       services:
-        - catalog-api-repo
+        - backend-repo
         - test
-      name: 'catalog-api-{{toolchain.name}}'
+      name: 'backend-{{toolchain.name}}'
       configuration:
         content:
-          $ref: catalog-api.pipeline.yml
+          $ref: backend.pipeline.yml
           $refType: text
         env:
           SAUCE_LABS: test
-          CATALOG_API_REPO: catalog-api-repo
+          CATALOG_API_REPO: backend-repo
           CF_APP_NAME: '{{form.pipeline.parameters.catalog-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
@@ -109,11 +109,11 @@ services:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-  orders-api-repo:
+  dashboard-repo:
     service_id: hostedgit
     parameters:
-      repo_name: '{{form.hostedgit.parameters.orders-api-repo_name}}'
-      repo_url: '{{form.hostedgit.parameters.orders-api-repo_url}}'
+      repo_name: '{{form.hostedgit.parameters.dashboard-repo_name}}'
+      repo_url: '{{form.hostedgit.parameters.dashboard-repo_url}}'
       type: clone
       has_issues: false
       enable_traceability: true
@@ -133,18 +133,18 @@ form:
     parameters:
       staging-space: staging
       prod-space: prod
-      orders-app-name: '{{services.orders-api-repo.parameters.repo_name}}'
-      catalog-app-name: '{{services.catalog-api-repo.parameters.repo_name}}'
-      ui-app-name: '{{services.ui-repo.parameters.repo_name}}'
+      orders-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
+      catalog-app-name: '{{services.backend-repo.parameters.repo_name}}'
+      policy-holder-app-name: '{{services.policy-holder-repo.parameters.repo_name}}'
     schema:
       $ref: deploy.json
   hostedgit:
     parameters:
-      catalog-api-repo_name: 'catalog-api-{{toolchain.name}}'
-      catalog-api-repo_url: 'https://github.com/open-toolchain/Microservices_CatalogAPI'
-      orders-api-repo_name: 'orders-api-{{toolchain.name}}'
-      orders-api-repo_url: 'https://github.com/open-toolchain/Microservices_OrdersAPI'
-      ui-repo_name: 'ui-{{toolchain.name}}'
-      ui-repo_url: 'https://github.com/open-toolchain/Microservices_UI'
+      backend-repo_name: 'backend-{{toolchain.name}}'
+      backend-repo_url: 'https://github.com/open-toolchain/Microservices_CatalogAPI'
+      dashboard-repo_name: 'dashboard-{{toolchain.name}}'
+      dashboard-repo_url: 'https://github.com/open-toolchain/Microservices_OrdersAPI'
+      policy-holder-repo_name: 'policy-holder-{{toolchain.name}}'
+      policy-holder-repo_url: 'https://github.com/open-toolchain/Microservices_UI'
     schema:
       $ref: repos.json
