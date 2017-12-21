@@ -1,4 +1,4 @@
-### Starter applications of IoT4I
+### Starter applications
 
 #### How to run in IBM Cloud
 ##### Deploy through IBM Cloud Continuous Delivery
