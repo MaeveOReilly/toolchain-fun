@@ -4,13 +4,7 @@ stages:
     inputs:
       - type: git
         branch: master
-        service:
-          service_id: github_integrated
-          parameters:
-            repo_name: iot4i-starter-app-backend
-            repo_url: https://github.com/ibm-watson-iot/ioti-starter-app-backend
-            type: clone
-            has_issues: false
+        service: ${BACKEND_REPO}
     triggers:
       - type: commit
     jobs:
@@ -23,6 +17,10 @@ stages:
         job: Build
     triggers:
       - type: stage
+    properties:
+      - name: APP_ENV
+        value: template
+        type: text
     jobs:
       - name: Deploy to dev
         type: deployer
@@ -31,14 +29,13 @@ stages:
           #Remove the 'export' and 'sed' lines from the configuration of 
           #the Deploy Stage when you have set APP_ENV in the manifest.yml and created a 
           #corresponding config/config-$env.json file
-          export APP_ENV=template
-          sed -i  "s/myenv/$APP_ENV/g" manifest.yml
+          sed -i  "s/myenv/${APP_ENV}/g" manifest.yml
           cf create-service cloudantNoSQLDB Lite iot4i-starter-cloudantNoSQLDB
           cf push "${CF_APP}" --no-start
           cf bind-service "${CF_APP}" iot4i-starter-cloudantNoSQLDB
           cf start "${CF_APP}"
         target:
-          organization: ${CF_ORGANIZATION}
-          space: ${CF_SPACE}
-          url: ${CF_TARGET_URL}
-          application: ${CF_APP}
+          organization: ${STAGING_REGION_ID}
+          space: ${STAGING_ORG_NAME}
+          url: ${STAGING_SPACE_NAME}
+          application: ${CF_APP_NAME}
