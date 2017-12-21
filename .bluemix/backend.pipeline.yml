@@ -21,6 +21,9 @@ stages:
       - name: APP_ENV
         value: template
         type: text
+      - name: CF_APP_NAME
+        value: undefined
+        type: text
     jobs:
       - name: Deploy to dev
         type: deployer
@@ -31,9 +34,9 @@ stages:
           #corresponding config/config-$env.json file
           sed -i  "s/myenv/${APP_ENV}/g" manifest.yml
           cf create-service cloudantNoSQLDB Lite iot4i-starter-cloudantNoSQLDB
-          cf push "${CF_APP}" --no-start
-          cf bind-service "${CF_APP}" iot4i-starter-cloudantNoSQLDB
-          cf start "${CF_APP}"
+          cf push "${CF_APP_NAME}" --no-start
+          cf bind-service "${CF_APP_NAME}" iot4i-starter-cloudantNoSQLDB
+          cf start "${CF_APP_NAME}"
         target:
           organization: ${STAGING_REGION_ID}
           space: ${STAGING_ORG_NAME}
