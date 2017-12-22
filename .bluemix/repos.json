@@ -14,32 +14,32 @@
     },
     "type": "object",
     "properties": {
-        "backend-repo_name": {
+        "catalog-api-repo_name": {
             "type": "string"
         },
-        "backend-repo_url": {
+        "catalog-api-repo_url": {
             "type": "string"
         },
-        "dashboard-repo_name": {
+        "orders-api-repo_name": {
             "type": "string"
         },
-        "dashboard-repo_url": {
+        "orders-api-repo_url": {
             "type": "string"
         },
-        "policy-holder-repo_name": {
+        "ui-repo_name": {
             "type": "string"
         },
-        "policy-holder-repo_url": {
+        "ui-repo_url": {
             "type": "string"
         }
     },
     "required": [
-        "backend-repo_name",
-        "backend-repo_url",
-        "dashboard-repo_name",
-        "dashboard-repo_url",
-        "policy-holder-repo_name",
-        "policy-holder-repo_url"
+        "catalog-api-repo_name",
+        "catalog-api-repo_url",
+        "orders-api-repo_name",
+        "orders-api-repo_url",
+        "ui-repo_name",
+        "ui-repo_url"
     ],
     "form": [
         {
@@ -73,7 +73,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "dashboard-repo_url"
+                    "key": "orders-api-repo_url"
                 },
                 {
                     "type": "icon",
@@ -81,11 +81,11 @@
                 },
                 {
                     "type": "text",
-                    "key": "dashboard-repo_name"
+                    "key": "orders-api-repo_name"
                 },
                 {
                     "type": "text",
-                    "key": "backend-repo_url"
+                    "key": "catalog-api-repo_url"
                 },
                 {
                     "type": "icon",
@@ -93,11 +93,11 @@
                 },
                 {
                     "type": "text",
-                    "key": "backend-repo_name"
+                    "key": "catalog-api-repo_name"
                 },
                 {
                     "type": "text",
-                    "key": "policy-holder-repo_url"
+                    "key": "ui-repo_url"
                 },
                 {
                     "type": "icon",
@@ -105,7 +105,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "policy-holder-repo_name"
+                    "key": "ui-repo_name"
                 }
             ]
         }
