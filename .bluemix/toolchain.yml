@@ -120,8 +120,6 @@ services:
   dra:
     service_id: draservicebroker
     $ref: dra.yml
-  messaging:
-    service_id: slack
   test:
     service_id: saucelabs
   webide:
