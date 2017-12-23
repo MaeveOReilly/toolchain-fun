@@ -38,6 +38,7 @@ services:
           $ref: orders-api.pipeline.yml
           $refType: text
         env:
+          SAUCE_LABS: test
           ORDER_API_REPO: orders-api-repo
           CF_APP_NAME: '{{form.pipeline.parameters.orders-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
@@ -76,6 +77,7 @@ services:
           $ref: ui.pipeline.yml
           $refType: text
         env:
+          SAUCE_LABS: test
           UI_REPO: ui-repo
           CF_APP_NAME: '{{form.pipeline.parameters.ui-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
@@ -97,6 +99,7 @@ services:
           $ref: catalog-api.pipeline.yml
           $refType: text
         env:
+          SAUCE_LABS: test
           CATALOG_API_REPO: catalog-api-repo
           CF_APP_NAME: '{{form.pipeline.parameters.catalog-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
@@ -121,6 +124,8 @@ services:
     $ref: dra.yml
   messaging:
     service_id: slack
+  test:
+    service_id: saucelabs
   webide:
     service_id: orion
 form:
