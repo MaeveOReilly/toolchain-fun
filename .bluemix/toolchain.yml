@@ -117,9 +117,6 @@ services:
       type: clone
       has_issues: false
       enable_traceability: true
-  dra:
-    service_id: draservicebroker
-    $ref: dra.yml
   test:
     service_id: saucelabs
   webide:
