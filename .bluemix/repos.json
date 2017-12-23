@@ -14,10 +14,10 @@
     },
     "type": "object",
     "properties": {
-        "catalog-api-repo_name": {
+        "backend-repo_name": {
             "type": "string"
         },
-        "catalog-api-repo_url": {
+        "backend-repo_url": {
             "type": "string"
         },
         "orders-api-repo_name": {
@@ -34,8 +34,8 @@
         }
     },
     "required": [
-        "catalog-api-repo_name",
-        "catalog-api-repo_url",
+        "backend-repo_name",
+        "backend-repo_url",
         "orders-api-repo_name",
         "orders-api-repo_url",
         "ui-repo_name",
@@ -85,7 +85,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "catalog-api-repo_url"
+                    "key": "backend-repo_url"
                 },
                 {
                     "type": "icon",
@@ -93,7 +93,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "catalog-api-repo_name"
+                    "key": "backend-repo_name"
                 },
                 {
                     "type": "text",

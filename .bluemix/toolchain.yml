@@ -10,9 +10,9 @@ template:
   icon: icon.svg
   required:
     - ui-build
-    - catalog-api-build
+    - backend-build
     - orders-api-build
-    - catalog-api-repo
+    - backend-repo
     - orders-api-repo
     - ui-repo
   info:
@@ -48,11 +48,11 @@ services:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-  catalog-api-repo:
+  backend-repo:
     service_id: hostedgit
     parameters:
-      repo_name: '{{form.hostedgit.parameters.catalog-api-repo_name}}'
-      repo_url: '{{form.hostedgit.parameters.catalog-api-repo_url}}'
+      repo_name: '{{form.hostedgit.parameters.backend-repo_name}}'
+      repo_url: '{{form.hostedgit.parameters.backend-repo_url}}'
       type: clone
       has_issues: false
       enable_traceability: true
@@ -87,21 +87,21 @@ services:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-  catalog-api-build:
+  backend-build:
     service_id: pipeline
     parameters:
       services:
-        - catalog-api-repo
+        - backend-repo
         - test
-      name: 'catalog-api-{{toolchain.name}}'
+      name: 'backend-{{toolchain.name}}'
       configuration:
         content:
-          $ref: catalog-api.pipeline.yml
+          $ref: backend.pipeline.yml
           $refType: text
         env:
           SAUCE_LABS: test
-          CATALOG_API_REPO: catalog-api-repo
-          CF_APP_NAME: '{{form.pipeline.parameters.catalog-app-name}}'
+          BACKEND_REPO: backend-repo
+          CF_APP_NAME: '{{form.pipeline.parameters.backend-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -127,14 +127,14 @@ form:
       staging-space: staging
       prod-space: prod
       orders-app-name: '{{services.orders-api-repo.parameters.repo_name}}'
-      catalog-app-name: '{{services.catalog-api-repo.parameters.repo_name}}'
+      backend-app-name: '{{services.backend-repo.parameters.repo_name}}'
       ui-app-name: '{{services.ui-repo.parameters.repo_name}}'
     schema:
       $ref: deploy.json
   hostedgit:
     parameters:
-      catalog-api-repo_name: 'catalog-api-{{toolchain.name}}'
-      catalog-api-repo_url: 'https://github.com/ibm-watson-iot/ioti-starter-app-backend'
+      backend-repo_name: 'backend-{{toolchain.name}}'
+      backend-repo_url: 'https://github.com/ibm-watson-iot/ioti-starter-app-backend'
       orders-api-repo_name: 'orders-api-{{toolchain.name}}'
       orders-api-repo_url: 'https://github.com/ibm-watson-iot/ioti-insurance-dashboard'
       ui-repo_name: 'ui-{{toolchain.name}}'

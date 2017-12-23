@@ -46,7 +46,7 @@
             "pattern": "\\S",
             "maxLength": 63
         },
-        "catalog-app-name": {
+        "backend-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription2"
             },
@@ -71,7 +71,7 @@
         "prod-organization",
         "prod-space",
         "orders-app-name",
-        "catalog-app-name",
+        "backend-app-name",
         "ui-app-name"
     ],
     "form": [
@@ -93,7 +93,7 @@
             "title": {
                 "$ref": "#/messages/deploy.appName2"
             },
-            "key": "catalog-app-name"
+            "key": "backend-app-name"
         },
         {
             "type": "text",
