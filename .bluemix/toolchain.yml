@@ -6,7 +6,6 @@ template:
     $ref: "#/messages/template.name"
   description:
     $ref: "#/messages/template.description"
-  header: '![](toolchain.svg?localize)'
   icon: icon.svg
   required:
     - ui-build
@@ -24,7 +23,7 @@ toolchain:
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
-  name: 'microservices-toolchain-{{timestamp}}'
+  name: 'ioti-{{timestamp}}'
 services:
   orders-api-build:
     service_id: pipeline
