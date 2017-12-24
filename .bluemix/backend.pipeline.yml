@@ -37,5 +37,5 @@ stages:
         target:
           organization: ${STAGING_REGION_ID}
           space: ${STAGING_ORG_NAME}
-          url: ${STAGING_SPACE_NAME}
+          url: ${CF_TARGET_URL}
           application: ${CF_APP_NAME}
