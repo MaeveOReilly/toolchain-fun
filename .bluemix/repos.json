@@ -20,10 +20,10 @@
         "backend-repo_url": {
             "type": "string"
         },
-        "orders-api-repo_name": {
+        "dashboard-repo_name": {
             "type": "string"
         },
-        "orders-api-repo_url": {
+        "dashboard-repo_url": {
             "type": "string"
         },
         "ui-repo_name": {
@@ -36,8 +36,8 @@
     "required": [
         "backend-repo_name",
         "backend-repo_url",
-        "orders-api-repo_name",
-        "orders-api-repo_url",
+        "dashboard-repo_name",
+        "dashboard-repo_url",
         "ui-repo_name",
         "ui-repo_url"
     ],
@@ -73,7 +73,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "orders-api-repo_url"
+                    "key": "dashboard-repo_url"
                 },
                 {
                     "type": "icon",
@@ -81,7 +81,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "orders-api-repo_name"
+                    "key": "dashboard-repo_name"
                 },
                 {
                     "type": "text",

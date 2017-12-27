@@ -38,7 +38,7 @@
             "description": "The bluemix space",
             "type": "string"
         },
-        "orders-app-name": {
+        "dashboard-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription1"
             },
@@ -70,7 +70,7 @@
         "prod-region",
         "prod-organization",
         "prod-space",
-        "orders-app-name",
+        "dashboard-app-name",
         "backend-app-name",
         "ui-app-name"
     ],
@@ -85,7 +85,7 @@
             "title": {
                 "$ref": "#/messages/deploy.appName1"
             },
-            "key": "orders-app-name"
+            "key": "dashboard-app-name"
         },
         {
             "type": "text",

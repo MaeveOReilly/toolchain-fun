@@ -10,9 +10,9 @@ template:
   required:
     - ui-build
     - backend-build
-    - orders-api-build
+    - dashboard-build
     - backend-repo
-    - orders-api-repo
+    - dashboard-repo
     - ui-repo
   info:
     git url: >-
@@ -25,19 +25,19 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
   name: 'ioti-{{timestamp}}'
 services:
-  orders-api-build:
+  dashboard-build:
     service_id: pipeline
     parameters:
       services:
-        - orders-api-repo
-      name: 'orders-api-{{toolchain.name}}'
+        - dashboard-repo
+      name: 'dashboard-{{toolchain.name}}'
       configuration:
         content:
-          $ref: orders-api.pipeline.yml
+          $ref: dashboard.pipeline.yml
           $refType: text
         env:
-          ORDER_API_REPO: orders-api-repo
-          CF_APP_NAME: '{{form.pipeline.parameters.orders-app-name}}'
+          ORDER_API_REPO: dashboard-repo
+          CF_APP_NAME: '{{form.pipeline.parameters.dashboard-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -102,11 +102,11 @@ services:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-  orders-api-repo:
+  dashboard-repo:
     service_id: hostedgit
     parameters:
-      repo_name: '{{form.hostedgit.parameters.orders-api-repo_name}}'
-      repo_url: '{{form.hostedgit.parameters.orders-api-repo_url}}'
+      repo_name: '{{form.hostedgit.parameters.dashboard-repo_name}}'
+      repo_url: '{{form.hostedgit.parameters.dashboard-repo_url}}'
       type: clone
       has_issues: false
       enable_traceability: true
@@ -117,7 +117,7 @@ form:
     parameters:
       staging-space: staging
       prod-space: prod
-      orders-app-name: '{{services.orders-api-repo.parameters.repo_name}}'
+      dashboard-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
       backend-app-name: '{{services.backend-repo.parameters.repo_name}}'
       ui-app-name: '{{services.ui-repo.parameters.repo_name}}'
     schema:
@@ -126,8 +126,8 @@ form:
     parameters:
       backend-repo_name: 'backend-{{toolchain.name}}'
       backend-repo_url: 'https://github.com/ibm-watson-iot/ioti-starter-app-backend'
-      orders-api-repo_name: 'orders-api-{{toolchain.name}}'
-      orders-api-repo_url: 'https://github.com/ibm-watson-iot/ioti-insurance-dashboard'
+      dashboard-repo_name: 'dashboard-{{toolchain.name}}'
+      dashboard-repo_url: 'https://github.com/ibm-watson-iot/ioti-insurance-dashboard'
       ui-repo_name: 'ui-{{toolchain.name}}'
       ui-repo_url: 'https://github.com/ibm-watson-iot/ioti-policy-holder-app'
     schema:
