@@ -36,7 +36,7 @@ services:
           $ref: dashboard.pipeline.yml
           $refType: text
         env:
-          ORDER_API_REPO: dashboard-repo
+          DASHBOARD_REPO: dashboard-repo
           CF_APP_NAME: '{{form.pipeline.parameters.dashboard-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'

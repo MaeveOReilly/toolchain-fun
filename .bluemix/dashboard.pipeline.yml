@@ -4,13 +4,7 @@ stages:
     inputs:
       - type: git
         branch: master
-        service:
-          service_id: github_integrated
-          parameters:
-            repo_name: iot4i-starter-app-backend
-            repo_url: https://github.com/ibm-watson-iot/ioti-insurance-dashboard
-            type: clone
-            has_issues: false
+        service: ${DASHBOARD_REPO}
     triggers:
       - type: commit
     jobs:
@@ -23,19 +17,23 @@ stages:
         job: Build
     triggers:
       - type: stage
+    properties:
+      - name: APP_ENV
+        value: template
+        type: text
+      - name: CF_APP_NAME
+        value: undefined
+        type: text
     jobs:
-      - name: Deploy to dev
+      - name: Deploy
         type: deployer
         script: |-
           #!/bin/bash
-          #Remove the 'export' and 'sed' lines from the configuration of 
-          #the Deploy Stage when you have set APP_ENV in the manifest.yml and created a 
-          #corresponding config/config-$env.json file
           cf push "${CF_APP}" --no-start
           cf start "${CF_APP}"
-    target:
-        region_id: ${STAGING_REGION_ID}
-        organization: ${STAGING_ORG_NAME}
-        space: ${STAGING_SPACE_NAME}
-        application: ${CF_APP_NAME}
+        target:
+          region_id: ${STAGING_REGION_ID}
+          organization: ${STAGING_ORG_NAME}
+          space: ${STAGING_SPACE_NAME}
+          application: ${CF_APP_NAME}
 
