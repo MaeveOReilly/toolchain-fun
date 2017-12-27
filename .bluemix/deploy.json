@@ -54,7 +54,7 @@
             "pattern": "\\S",
             "maxLength": 63
         },
-        "ui-app-name": {
+        "policy-holder-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription3"
             },
@@ -72,7 +72,7 @@
         "prod-space",
         "dashboard-app-name",
         "backend-app-name",
-        "ui-app-name"
+        "policy-holder-app-name"
     ],
     "form": [
         {
@@ -101,7 +101,7 @@
             "title": {
                 "$ref": "#/messages/deploy.appName3"
             },
-            "key": "ui-app-name"
+            "key": "policy-holder-app-name"
         },
         {
             "type": "table",

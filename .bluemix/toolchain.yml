@@ -8,12 +8,12 @@ template:
     $ref: "#/messages/template.description"
   icon: icon.svg
   required:
-    - ui-build
+    - policy-holder-build
     - backend-build
     - dashboard-build
     - backend-repo
     - dashboard-repo
-    - ui-repo
+    - policy-holder-repo
   info:
     git url: >-
       [https://github.com/open-toolchain/microservices-toolchain-hosted](https://github.com/open-toolchain/microservices-toolchain-hosted)
@@ -53,28 +53,28 @@ services:
       type: clone
       has_issues: false
       enable_traceability: true
-  ui-repo:
+  policy-holder-repo:
     service_id: hostedgit
     parameters:
-      repo_name: '{{form.hostedgit.parameters.ui-repo_name}}'
-      repo_url: '{{form.hostedgit.parameters.ui-repo_url}}'
+      repo_name: '{{form.hostedgit.parameters.policy-holder-repo_name}}'
+      repo_url: '{{form.hostedgit.parameters.policy-holder-repo_url}}'
       type: clone
       has_issues: true
       enable_traceability: true
-  ui-build:
+  policy-holder-build:
     service_id: pipeline
     parameters:
       services:
-        - ui-repo
-      name: 'ui-{{toolchain.name}}'
-      ui-pipeline: true
+        - policy-holder-repo
+      name: 'policy-holder-{{toolchain.name}}'
+      policy-holder-pipeline: true
       configuration:
         content:
           $ref: ui.pipeline.yml
           $refType: text
         env:
-          UI_REPO: ui-repo
-          CF_APP_NAME: '{{form.pipeline.parameters.ui-app-name}}'
+          POLICY_HOLDER_REPO: policy-holder-repo
+          CF_APP_NAME: '{{form.pipeline.parameters.policy-holder-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -119,7 +119,7 @@ form:
       prod-space: prod
       dashboard-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
       backend-app-name: '{{services.backend-repo.parameters.repo_name}}'
-      ui-app-name: '{{services.ui-repo.parameters.repo_name}}'
+      policy-holder-app-name: '{{services.policy-holder-repo.parameters.repo_name}}'
     schema:
       $ref: deploy.json
   hostedgit:
@@ -128,7 +128,7 @@ form:
       backend-repo_url: 'https://github.com/ibm-watson-iot/ioti-starter-app-backend'
       dashboard-repo_name: 'dashboard-{{toolchain.name}}'
       dashboard-repo_url: 'https://github.com/ibm-watson-iot/ioti-insurance-dashboard'
-      ui-repo_name: 'ui-{{toolchain.name}}'
-      ui-repo_url: 'https://github.com/ibm-watson-iot/ioti-policy-holder-app'
+      policy-holder-repo_name: 'policy-holder-{{toolchain.name}}'
+      policy-holder-repo_url: 'https://github.com/ibm-watson-iot/ioti-policy-holder-app'
     schema:
       $ref: repos.json

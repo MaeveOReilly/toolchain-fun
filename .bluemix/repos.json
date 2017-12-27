@@ -26,10 +26,10 @@
         "dashboard-repo_url": {
             "type": "string"
         },
-        "ui-repo_name": {
+        "policy-holder-repo_name": {
             "type": "string"
         },
-        "ui-repo_url": {
+        "policy-holder-repo_url": {
             "type": "string"
         }
     },
@@ -38,8 +38,8 @@
         "backend-repo_url",
         "dashboard-repo_name",
         "dashboard-repo_url",
-        "ui-repo_name",
-        "ui-repo_url"
+        "policy-holder-repo_name",
+        "policy-holder-repo_url"
     ],
     "form": [
         {
@@ -97,7 +97,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "ui-repo_url"
+                    "key": "policy-holder-repo_url"
                 },
                 {
                     "type": "icon",
@@ -105,7 +105,7 @@
                 },
                 {
                     "type": "text",
-                    "key": "ui-repo_name"
+                    "key": "policy-holder-repo_name"
                 }
             ]
         }
