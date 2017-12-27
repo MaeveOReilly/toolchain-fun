@@ -70,7 +70,7 @@ services:
       policy-holder-pipeline: true
       configuration:
         content:
-          $ref: ui.pipeline.yml
+          $ref: policy-holder.pipeline.yml
           $refType: text
         env:
           POLICY_HOLDER_REPO: policy-holder-repo
