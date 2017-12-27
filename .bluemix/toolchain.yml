@@ -15,9 +15,7 @@ template:
     - policy-holder-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/microservices-toolchain-hosted](https://github.com/open-toolchain/microservices-toolchain-hosted)
-    git branch: >-
-      [master](https://github.com/open-toolchain/microservices-toolchain-hosted/tree/master)
+      [https://github.com/ibm-watson-iot](https://github.com/ibm-watson-iot)
 toolchain:
   template:
     getting_started:
