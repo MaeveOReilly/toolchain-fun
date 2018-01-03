@@ -114,7 +114,7 @@ services:
 form:
   pipeline:
     parameters:
-      staging-space: dev
+      staging-space: staging
       prod-space: prod
       dashboard-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
       backend-app-name: '{{services.backend-repo.parameters.repo_name}}'
