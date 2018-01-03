@@ -26,7 +26,7 @@ stages:
         type: deployer
         script: |-
           #!/bin/bash
-          sed -i 's/[<]backendhost[>]:[<]port[>]/${BACKEND_APP_NAME}/g' app/config-${ENV}.yml  
+          sed -i 's/[<]backendhost[>]:[<]port[>]/${BACKEND_APP_NAME}/g' app/config-${ENV}.js  
           cf push "${CF_APP}" --no-start
           cf start "${CF_APP}"
         target:
