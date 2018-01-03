@@ -18,17 +18,15 @@ stages:
     triggers:
       - type: stage
     properties:
-      - name: APP_ENV
-        value: template
-        type: text
-      - name: CF_APP_NAME
-        value: undefined
+      - name: ENV
+        value: staging
         type: text
     jobs:
       - name: Deploy
         type: deployer
         script: |-
           #!/bin/bash
+          sed -i 's/[<]backendhost[>]:[<]port[>]/${BACKEND_APP_NAME}/g' app/config-${ENV}.yml  
           cf push "${CF_APP}" --no-start
           cf start "${CF_APP}"
         target:

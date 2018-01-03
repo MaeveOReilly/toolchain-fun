@@ -35,6 +35,7 @@ services:
         env:
           DASHBOARD_REPO: dashboard-repo
           CF_APP_NAME: '{{form.pipeline.parameters.dashboard-app-name}}'
+          BACKEND_APP_NAME: '{{form.pipeline.parameters.backend-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
@@ -72,6 +73,7 @@ services:
         env:
           POLICY_HOLDER_REPO: policy-holder-repo
           CF_APP_NAME: '{{form.pipeline.parameters.policy-holder-app-name}}'
+          BACKEND_APP_NAME: '{{form.pipeline.parameters.backend-app-name}}'
           STAGING_SPACE_NAME: '{{form.pipeline.parameters.staging-space}}'
           STAGING_ORG_NAME: '{{form.pipeline.parameters.staging-organization}}'
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
