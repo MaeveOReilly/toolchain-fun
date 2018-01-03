@@ -21,12 +21,15 @@ stages:
       - name: ENV
         value: staging
         type: text
+      - name: BACKEND_APP_NAME
+        value: ${BACKEND_APP_NAME}
+        type: text
     jobs:
       - name: Deploy
         type: deployer
         script: |-
           #!/bin/bash
-          sed -i "s/[<]backendhost[>]:[<]port[>]/${BACKEND_APP_NAME}/g" app/config-${ENV}.js
+          sed -i "s/[<]backendhost[>]:[<]port[>]/$BACKEND_APP_NAME/g" app/config-${ENV}.js
           sed -i "s/iot4i-starter-dashboard/${CF_APP}/g" manifest.yml
           cf push "${CF_APP}" --no-start
           cf start "${CF_APP}"
