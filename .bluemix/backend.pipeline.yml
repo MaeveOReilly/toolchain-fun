@@ -18,18 +18,16 @@ stages:
     triggers:
       - type: stage
     properties:
-      - name: APP_ENV
-        value: template
-        type: text
-      - name: CF_APP_NAME
-        value: undefined
+      - name: ENV
+        value: staging
         type: text
     jobs:
       - name: Deploy to dev
         type: deployer
         script: |-
           #!/bin/bash
-          sed -i  "s/myenv/${APP_ENV}/g" manifest.yml
+          sed -i  "s/myenv/${ENV}/g" manifest.yml
+          cp config/config-template.json config-${ENV}.json
           cf create-service cloudantNoSQLDB Lite iot4i-starter-cloudantNoSQLDB
           cf push "${CF_APP}" --no-start
           cf bind-service "${CF_APP}" iot4i-starter-cloudantNoSQLDB
