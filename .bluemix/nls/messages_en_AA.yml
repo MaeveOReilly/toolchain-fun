@@ -1,6 +1,6 @@
 ---
 template.name: "Deploy Watson IoT for Insurance starter applications to the IBM Cloud"
-template.description: "Fill me with words.\n\n"
+template.description: "This template deploys the three starter applications to the IBM Cloud\n\n"
 template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to a Git repo to trigger a new build and deployment."
 deploy.title: "Deployment stage"
 deploy.description: "Deployment schema"
