@@ -128,6 +128,6 @@ form:
       dashboard-repo_name: 'dashboard-{{toolchain.name}}'
       dashboard-repo_url: 'https://github.com/ibm-watson-iot/ioti-insurance-dashboard'
       policy-holder-repo_name: 'policy-holder-{{toolchain.name}}'
-      policy-holder-repo_url: 'https://github.com/MaeveOReilly/ioti-policy-holder-app'
+      policy-holder-repo_url: 'https://github.com/ibm-watson-iot/ioti-policy-holder-app'
     schema:
       $ref: repos.json
