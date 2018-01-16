@@ -108,7 +108,7 @@ services:
 form:
   pipeline:
     parameters:
-      tenant-id: YourTenantID
+      tenant-id: 
       staging-space: staging
       dashboard-app-name: '{{services.dashboard-repo.parameters.repo_name}}'
       backend-app-name: '{{services.backend-repo.parameters.repo_name}}'
