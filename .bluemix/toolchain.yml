@@ -42,11 +42,11 @@ services:
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
         execute: true
   backend-repo:
-    service_id: hostedgit
+    service_id: githubpublic
     parameters:
       repo_name: '{{form.hostedgit.parameters.backend-repo_name}}'
       repo_url: '{{form.hostedgit.parameters.backend-repo_url}}'
-      type: clone
+      type: fork
       has_issues: false
       enable_traceability: true
   policy-holder-repo:
