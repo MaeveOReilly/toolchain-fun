@@ -96,7 +96,7 @@ services:
           STAGING_REGION_ID: '{{form.pipeline.parameters.staging-region}}'
         execute: true
   dashboard-repo:
-    service_id: githubpublic
+    service_id: hostedgit
     parameters:
       repo_name: '{{form.hostedgit.parameters.dashboard-repo_name}}'
       repo_url: '{{form.hostedgit.parameters.dashboard-repo_url}}'
