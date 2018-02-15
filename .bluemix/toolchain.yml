@@ -30,7 +30,7 @@ services:
       name: 'dashboard-{{toolchain.name}}'
       configuration:
         content:
-          $ref: dashboard.pipeline.yml
+          $ref: https://raw.githubusercontent.com/ibm-watson-iot/ioti-starter-app-backend/master/.bluemix/backend.pipeline.yml
           $refType: text
         env:
           TENANT_ID: '{{form.pipeline.parameters.tenant-id}}'
